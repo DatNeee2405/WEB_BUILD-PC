@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('style.css');</style>
+    <script src="script.js"></script>
+    <!-- Thêm jQuery từ Google CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="algorithm.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="slogan">BUILD YOUR PC WITH MY WEB</h1>
+    <div class="container">
+        <div class="toolbar">
+            <label for="CPU" style="margin-right: 10px;">chọn CPU</label>
+                <select name="CPU" id="CPU"><option value="CPU Intel Core Ultra 9 285 Up to 5.6GHz 24 cores 24 threads 36MB">CPU Intel Core Ultra 9 285 Up to 5.6GHz 24 cores 24 threads 36MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 7 265F Up to 5.3GHz 20 cores 20 threads 30MB">CPU Intel Core Ultra 7 265F Up to 5.3GHz 20 cores 20 threads 30MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 7 265 Up to 5.3GHz 20 cores 20 threads 30MB">CPU Intel Core Ultra 7 265 Up to 5.3GHz 20 cores 20 threads 30MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 5 245 Up to 5.1GHz 14 cores 14 threads 24MB">CPU Intel Core Ultra 5 245 Up to 5.1GHz 14 cores 14 threads 24MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 5 235 Up to 5.0GHz 14 cores 14 threads 24MB">CPU Intel Core Ultra 5 235 Up to 5.0GHz 14 cores 14 threads 24MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 5 255F Up to 4.9GHz 10 cores 10 threads 20MB">CPU Intel Core Ultra 5 255F Up to 4.9GHz 10 cores 10 threads 20MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 5 255 Up to 4.9GHz 10 cores 10 threads 20MB">CPU Intel Core Ultra 5 255 Up to 4.9GHz 10 cores 10 threads 20MB - Liên hệ - Socket: LGA1851</option>
+<option value="CPU AMD Ryzen 3 4100 MPK 3.8GHz 4 cores 8 threads 6MB 100-100000510">CPU AMD Ryzen 3 4100 MPK 3.8GHz 4 cores 8 threads 6MB 100-100000510 - 1.790.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i3-12100F Up to 4.3GHz 4 cores 8 threads 12MB">CPU Intel Core i3-12100F Up to 4.3GHz 4 cores 8 threads 12MB - 1.990.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core i3-13100F Up to 4.5GHz 4 cores 8 threads 12MB">CPU Intel Core i3-13100F Up to 4.5GHz 4 cores 8 threads 12MB - 2.090.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 5500 3.6GHz 6 cores 12 threads 19MB 100-100000457BOX">CPU AMD Ryzen 5 5500 3.6GHz 6 cores 12 threads 19MB 100-100000457BOX - 2.090.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i3-14100F Up to 4.7GHz 4 cores 8 threads 12MB">CPU Intel Core i3-14100F Up to 4.7GHz 4 cores 8 threads 12MB - 2.190.000 ₫ - Socket: FCLGA1700</option>
+<option value="CPU AMD Ryzen 5 4600G 3.7GHz 6 cores 12 threads 8MB 100-100000147BOX">CPU AMD Ryzen 5 4600G 3.7GHz 6 cores 12 threads 8MB 100-100000147BOX - 2.590.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i5-12400F Up to 4.4GHz 6 cores 12 threads 18MB">CPU Intel Core i5-12400F Up to 4.4GHz 6 cores 12 threads 18MB - 2.890.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core i3-12100 Up to 4.3GHz 4 cores 8 threads 12MB">CPU Intel Core i3-12100 Up to 4.3GHz 4 cores 8 threads 12MB - 2.890.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 5600X 3.7GHz 6 cores 12 threads 32MB 100-100000065BOX">CPU AMD Ryzen 5 5600X 3.7GHz 6 cores 12 threads 32MB 100-100000065BOX - 2.990.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i3-14100 Up to 4.7GHz 4 cores 8 threads 12MB">CPU Intel Core i3-14100 Up to 4.7GHz 4 cores 8 threads 12MB - 3.190.000 ₫ - Socket: FCLGA1700</option>
+<option value="CPU Intel Core i3-13100 Up to 4.5GHz 4 cores 8 threads 12MB">CPU Intel Core i3-13100 Up to 4.5GHz 4 cores 8 threads 12MB - 3.190.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 5600GT Up to 4.6GHz 6 cores 12 threads 16MB 100-100001488BOX">CPU AMD Ryzen 5 5600GT Up to 4.6GHz 6 cores 12 threads 16MB 100-100001488BOX - 3.390.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i5-12400 Up to 4.4GHz 6 cores 12 threads 18MB">CPU Intel Core i5-12400 Up to 4.4GHz 6 cores 12 threads 18MB - 3.750.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 8400F Up to 4.7GHz 6 cores 12 threads 16MB 100-100001591BOX">CPU AMD Ryzen 5 8400F Up to 4.7GHz 6 cores 12 threads 16MB 100-100001591BOX - 3.990.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i5-14400F Up to 4.7GHz 10 cores 16 threads 20MB">CPU Intel Core i5-14400F Up to 4.7GHz 10 cores 16 threads 20MB - 3.990.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 8500G Up to 5.0GHz 6 cores 12 threads 16MB 100-100000931BOX">CPU AMD Ryzen 5 8500G Up to 5.0GHz 6 cores 12 threads 16MB 100-100000931BOX - 4.190.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i5-13400F Up to 4.6GHz 10 cores 16 threads 20MB">CPU Intel Core i5-13400F Up to 4.6GHz 10 cores 16 threads 20MB - 4.190.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 7 5700X 3.4GHz 8 cores 16 threads 36MB 100-100000926WOF">CPU AMD Ryzen 7 5700X 3.4GHz 8 cores 16 threads 36MB 100-100000926WOF - 4.190.000 ₫ - Socket: AM4</option>
+<option value="CPU AMD Ryzen 7 5700G 3.8GHz 8 cores 16 threads 16MB 100-100000263BOX">CPU AMD Ryzen 7 5700G 3.8GHz 8 cores 16 threads 16MB 100-100000263BOX - 4.990.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i5-13400 Up to 4.6GHz 10 cores 16 threads 20MB">CPU Intel Core i5-13400 Up to 4.6GHz 10 cores 16 threads 20MB - 5.050.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 8600G Up to 5.0GHz 6 cores 12 threads 16MB 100-100001237BOX">CPU AMD Ryzen 5 8600G Up to 5.0GHz 6 cores 12 threads 16MB 100-100001237BOX - 5.190.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i5-14400 Up to 4.7GHz 10 cores 16 threads 20MB">CPU Intel Core i5-14400 Up to 4.7GHz 10 cores 16 threads 20MB - 5.190.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 5 7600 3.8GHz 6 cores 12 threads 38MB 100-100001015BOX">CPU AMD Ryzen 5 7600 3.8GHz 6 cores 12 threads 38MB 100-100001015BOX - 5.690.000 ₫ - Socket: AM5</option>
+<option value="CPU AMD Ryzen 7 5700X3D Up to 4.1GHz 8 cores 16 threads 96MB 100-100001503WOF">CPU AMD Ryzen 7 5700X3D Up to 4.1GHz 8 cores 16 threads 96MB 100-100001503WOF - 6.190.000 ₫ - Socket: AM4</option>
+<option value="CPU AMD Ryzen 7 5800X 3.8GHz 8 cores 16 threads 36MB 100-100000063WOF">CPU AMD Ryzen 7 5800X 3.8GHz 8 cores 16 threads 36MB 100-100000063WOF - 6.350.000 ₫ - Socket: AM4</option>
+<option value="CPU AMD Ryzen 5 7600X 4.7GHz 6 cores 12 threads 38MB 100-100000593WOF">CPU AMD Ryzen 5 7600X 4.7GHz 6 cores 12 threads 38MB 100-100000593WOF - 6.490.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i5-14500 Up to 5.0GHz 14 cores 20 threads 24MB">CPU Intel Core i5-14500 Up to 5.0GHz 14 cores 20 threads 24MB - 6.590.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core i5-14600K Up to 5.3GHz 14 cores 20 threads 24MB">CPU Intel Core i5-14600K Up to 5.3GHz 14 cores 20 threads 24MB - 6.590.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 7 8700F Up to 5GHz 8 cores 16 threads 16MB 100-100001590BOX">CPU AMD Ryzen 7 8700F Up to 5GHz 8 cores 16 threads 16MB 100-100001590BOX - 6.790.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i7-12700 Up to 4.9GHz 12 cores 20 threads 25MB">CPU Intel Core i7-12700 Up to 4.9GHz 12 cores 20 threads 25MB - 7.290.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core i7-14700F Up to 5.4GHz 20 cores 28 threads 33MB">CPU Intel Core i7-14700F Up to 5.4GHz 20 cores 28 threads 33MB - 8.090.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core Ultra 5 245KF Up to 5.2GHz 14 cores 14 threads 24MB">CPU Intel Core Ultra 5 245KF Up to 5.2GHz 14 cores 14 threads 24MB - 8.450.000 ₫ - Socket: LGA1851</option>
+<option value="CPU AMD Ryzen 9 5900X 3.7GHz 12 cores 24 threads 64MB 100-100000061WOF">CPU AMD Ryzen 9 5900X 3.7GHz 12 cores 24 threads 64MB 100-100000061WOF - 8.790.000 ₫ - Socket: AM4</option>
+<option value="CPU Intel Core i7-14700 Up to 5.4GHz 20 cores 28 threads 33MB">CPU Intel Core i7-14700 Up to 5.4GHz 20 cores 28 threads 33MB - 8.880.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core Ultra 5 245K Up to 5.2GHz 14 cores 14 threads 24MB">CPU Intel Core Ultra 5 245K Up to 5.2GHz 14 cores 14 threads 24MB - 8.990.000 ₫ - Socket: LGA1851</option>
+<option value="CPU AMD Ryzen 7 7700 3.8GHz 8 cores 16 threads 40MB 100-100000592BOX">CPU AMD Ryzen 7 7700 3.8GHz 8 cores 16 threads 40MB 100-100000592BOX - 8.990.000 ₫ - Socket: AM5</option>
+<option value="CPU AMD Ryzen 7 9700X Up to 5.5GHz 8 cores 16 threads 40MB 100-100001404WOF">CPU AMD Ryzen 7 9700X Up to 5.5GHz 8 cores 16 threads 40MB 100-100001404WOF - 9.690.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i7-14700K Up to 5.6GHz 20 cores 28 threads 33MB">CPU Intel Core i7-14700K Up to 5.6GHz 20 cores 28 threads 33MB - 10.290.000 ₫ - Socket: LGA1700</option>
+<option value="CPU Intel Core Ultra 7 265KF Up to 5.5GHz 20 cores 20 threads 30MB">CPU Intel Core Ultra 7 265KF Up to 5.5GHz 20 cores 20 threads 30MB - 10.990.000 ₫ - Socket: LGA1851</option>
+<option value="CPU Intel Core Ultra 7 265K Up to 5.5GHz 20 cores 20 threads 30MB">CPU Intel Core Ultra 7 265K Up to 5.5GHz 20 cores 20 threads 30MB - 11.590.000 ₫ - Socket: LGA1851</option>
+<option value="CPU AMD Ryzen 9 9900X Up to 5.6GHz 12 cores 24 threads 76MB 100-100000662WOF">CPU AMD Ryzen 9 9900X Up to 5.6GHz 12 cores 24 threads 76MB 100-100000662WOF - 11.990.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i9-14900K Up to 6.0GHz 24 cores 32 threads 36MB">CPU Intel Core i9-14900K Up to 6.0GHz 24 cores 32 threads 36MB - 12.990.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 7 9800X3D Up to 5.2GHz 8 cores 16 threads 104MB 100-1000001084WOF">CPU AMD Ryzen 7 9800X3D Up to 5.2GHz 8 cores 16 threads 104MB 100-1000001084WOF - 14.990.000 ₫ - Socket: AM5</option>
+<option value="CPU Intel Core i9-14900F Up to 5.8GHz 24 cores 32 threads 36MB">CPU Intel Core i9-14900F Up to 5.8GHz 24 cores 32 threads 36MB - 14.990.000 ₫ - Socket: LGA1700</option>
+<option value="CPU AMD Ryzen 9 9950X Up to 5.7GHz 16 cores 32 threads 80MB 100-100001277WOF">CPU AMD Ryzen 9 9950X Up to 5.7GHz 16 cores 32 threads 80MB 100-100001277WOF - 17.990.000 ₫ - Socket: AM5</option>
+<option value="CPU AMD Ryzen 9 7950X3D 4.2GHz 16 cores 32 threads 145MB 100-100000908WOF">CPU AMD Ryzen 9 7950X3D 4.2GHz 16 cores 32 threads 145MB 100-100000908WOF - 18.990.000 ₫ - Socket: AM5</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="Mainboard" style="margin-right: 10px;">chọn Mainboard</label>
+                <select name="Mainboard" id="Mainboard"><option value="Mainboard PC Gigabyte B850I AORUS PRO">Mainboard PC Gigabyte B850I AORUS PRO - Liên hệ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte B850 AORUS ELITE WIFI 7">Mainboard PC Gigabyte B850 AORUS ELITE WIFI 7 - Liên hệ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z890 AORUS XTREME AI TOP">Mainboard PC Gigabyte Z890 AORUS XTREME AI TOP - Liên hệ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z890I AORUS ULTRA">Mainboard PC Gigabyte Z890I AORUS ULTRA - Liên hệ - Socket: LGA 1851 - Hỗ trợ Ram: 2x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS PRIME X870-P-CSM">Mainboard PC ASUS PRIME X870-P-CSM - Liên hệ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS ROG STRIX X870-F GAMING WIFI">Mainboard PC ASUS ROG STRIX X870-F GAMING WIFI - Liên hệ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS ROG STRIX X870E-E GAMING WIFI">Mainboard PC ASUS ROG STRIX X870E-E GAMING WIFI - Liên hệ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock X870E TAICHI LITE">Mainboard PC ASRock X870E TAICHI LITE - Liên hệ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI B450M-A PRO MAX II">Mainboard PC MSI B450M-A PRO MAX II - 1.550.000 ₫ - Socket: LGA AM4 - Hỗ trợ Ram: 2x DDR4 DIMM Slot</option>
+<option value="Mainboard PC MSI PRO H610M-E DDR4">Mainboard PC MSI PRO H610M-E DDR4 - 1.950.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th
+	Intel Core 13th (Cần UPBIOS mới nhất)
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	2 x DDR4 Up to 3200 MHz (Maximum 64GB)</option>
+<option value="Mainboard PC ASRock B760M-HDV/M.2 D4">Mainboard PC ASRock B760M-HDV/M.2 D4 - 2.190.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	2 x DDR4 non-ECC up to 5333+(OC) MHz (Maximum 64GB)</option>
+<option value="Mainboard PC ASRock B760M-HDV/M.2">Mainboard PC ASRock B760M-HDV/M.2 - 2.650.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	2 x DDR5 non-ECC lên đến 7200+(OC) (Max 96GB)</option>
+<option value="Mainboard PC Gigabyte B760M GAMING WIFI PLUS DDR4">Mainboard PC Gigabyte B760M GAMING WIFI PLUS DDR4 - 2.790.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 4x DDR4 DIMM Slot</option>
+<option value="Mainboard PC ASRock B760M Pro RS/D4">Mainboard PC ASRock B760M Pro RS/D4 - 2.850.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	4 x DDR4 non-ECC up to 5333+(OC) MHz (Maximum 128GB)</option>
+<option value="Mainboard PC ASUS B760M-AYW WIFI D4">Mainboard PC ASUS B760M-AYW WIFI D4 - 2.890.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 4x DDR4 DIMM Slot</option>
+<option value="Mainboard PC MSI PRO B760M-A II DDR4">Mainboard PC MSI PRO B760M-A II DDR4 - 2.950.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th/14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR4 5333(OC)/ 5200(OC)/ 5066(OC)/ 5000(OC)/ 4800(OC)/ 4600(OC)/ 4400(OC)/ 4266(OC)/ 4200(OC)/ 4000(OC)/ 3800(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3400(OC)/ 3333(OC)/ 3200(JEDEC)/ 2933(JEDEC)/ 2666(JEDEC)/ 2400(JEDEC)/ 2133(JEDEC) MHz (Max 128GB)</option>
+<option value="Mainboard PC Gigabyte B550M AORUS ELITE AX">Mainboard PC Gigabyte B550M AORUS ELITE AX - 2.990.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	AMD socket AM4 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR4 4733(O.C.) / 4600(O.C.) / 4400(O.C.) / 4266(O.C.) / 4133(O.C.) / 4000(O.C.) / 3866(O.C.) / 3733(O.C.) / 3600(O.C.) / 3466(O.C) / 3400(O.C.) / 3200 / 2933 / 2667 / 2400 / 2133 MHz (Max 128GB)</option>
+<option value="Mainboard PC ASRock B650M HDV/M.2">Mainboard PC ASRock B650M HDV/M.2 - 3.090.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 2x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Asus Prime A620M-A">Mainboard PC Asus Prime A620M-A - 3.190.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	AMD Socket AM5 for AMD Ryzen™ 7000 Series
+	* Tham khảo CPU Support List để biết danh sách hỗ trợ CPU. - Hỗ trợ Ram: Hỗ trợ Ram
+	4x DDR5 7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5600(OC)/ 5200/ 4800MHz (Maximum 192GB)</option>
+<option value="Mainboard PC ASUS B760M-AYW WIFI">Mainboard PC ASUS B760M-AYW WIFI - 3.250.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 2x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock B760M Pro RS/D4 WIFI">Mainboard PC ASRock B760M Pro RS/D4 WIFI - 3.290.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	4 x DDR4 non-ECC up to 5333+(OC) MHz (Maximum 128GB)</option>
+<option value="Mainboard PC ASRock B550M Steel Legend">Mainboard PC ASRock B550M Steel Legend - 3.290.000 ₫ - Socket: CPU hỗ trợ
+	AMD Socket AM4 với Ryzen 3000, 3000 G-Series, 4000 G-Series, 5000 and 5000 G-Series - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR4 lên đến 4733+ (O.C) MHz (tối đa 128GB)</option>
+<option value="Mainboard PC MSI B760M GAMING PLUS WIFI DDR4">Mainboard PC MSI B760M GAMING PLUS WIFI DDR4 - 3.350.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 4x DDR4 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte B760M GAMING WIFI PLUS">Mainboard PC Gigabyte B760M GAMING WIFI PLUS - 3.350.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 2x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte B760M AORUS ELITE DDR4">Mainboard PC Gigabyte B760M AORUS ELITE DDR4 - 3.350.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR4 5333(OC)/ 5133(OC)/ 5000(OC)/ 4933(OC)/ 4800(OC)/ 4700(OC)/ 4600(OC)/ 4500(OC) / 4400(OC)/ 4300(OC)/ 4266(OC / 4133(OC)/ 4000(OC)/ 3866(OC)/ 3800(OC)/ 3733(OC)/ 3666(OC)/ 3600(OC)/ 3466(OC)/ 3400(OC)/ 3333(OC)/ 3300(OC)/ 3200 / 3000/ 2933/ 2666/ 2400/ 2133 MHz (Max 128GB)</option>
+<option value="Mainboard PC MSI PRO B760M-A WIFI DDR4">Mainboard PC MSI PRO B760M-A WIFI DDR4 - 3.390.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR4 5333(OC)/ 5200(OC)/ 5066(OC)/ 5000(OC)/ 4800(OC)/ 4600(OC)/ 4400(OC)/ 4266(OC)/ 4200(OC)/ 4000(OC)/ 3800(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3400(OC)/ 3333(OC)/ 3200(JEDEC)/ 2933(JEDEC)/ 2666(JEDEC)/ 2400(JEDEC)/ 2133(JEDEC) MHz (Maximum 128GB)</option>
+<option value="Mainboard PC MSI B760M GAMING PLUS WIFI">Mainboard PC MSI B760M GAMING PLUS WIFI - 3.590.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/ 14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 6800+(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Max 192GB)</option>
+<option value="Mainboard PC ASUS PRIME B760M-A WIFI D4-CSM">Mainboard PC ASUS PRIME B760M-A WIFI D4-CSM - 3.590.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th
+	Intel Core 13th (Cần UPBIOS mới nhất)
+	CPU Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR4 5333(OC)/ 5066(OC)/ 5000(OC)/ 4800(OC)/ 4600(OC)/ 4400(OC)/ 4266(OC)/ 4000(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3400(OC)/ 3333(OC)/ 3200/ 3000/ 2933/ 2800/2666/2400/2133 MHz (Max 128GB)</option>
+<option value="Mainboard PC ASRock B760M Pro RS WIFI">Mainboard PC ASRock B760M Pro RS WIFI - 3.690.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	4 x DDR5 non-ECC up to 7200+(OC) MHz (Maximum 192GB)</option>
+<option value="Mainboard PC ASRock B760M Pro RS WIFI White">Mainboard PC ASRock B760M Pro RS WIFI White - 3.790.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte B760M AORUS ELITE">Mainboard PC Gigabyte B760M AORUS ELITE - 3.790.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 4800/ 4000 MHz (Max 192GB)</option>
+<option value="Mainboard PC ASUS TUF GAMING B760M-PLUS WIFI II">Mainboard PC ASUS TUF GAMING B760M-PLUS WIFI II - 3.890.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI B650M GAMING PLUS WIFI">Mainboard PC MSI B650M GAMING PLUS WIFI - 3.990.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock B760M Steel Legend WiFi">Mainboard PC ASRock B760M Steel Legend WiFi - 3.990.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th & 13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	4 x DDR5 up to 7200+(OC) MHz (Maximum 192GB)</option>
+<option value="Mainboard PC MSI MAG B760M MORTAR WIFI II">Mainboard PC MSI MAG B760M MORTAR WIFI II - 4.090.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/ 14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Max 192GB)</option>
+<option value="Mainboard PC ASUS TUF GAMING B650M-E WIFI">Mainboard PC ASUS TUF GAMING B650M-E WIFI - 4.190.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MPG B760I EDGE WIFI">Mainboard PC MSI MPG B760I EDGE WIFI - 4.890.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th, Pentium Gold & Celeron
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	2x DDR5 7200+(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Maximum 96GB)</option>
+<option value="Mainboard PC ASUS ROG STRIX B760-I GAMING WIFI">Mainboard PC ASUS ROG STRIX B760-I GAMING WIFI - 4.890.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 13th/ 12th
+	CPU Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	2 x DDR5 7600(OC)/ 7466(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600/ 5400/ 5200/ 5000/ 4800 MHz (Maximum 96GB)</option>
+<option value="Mainboard PC MSI PRO Z790-S WF">Mainboard PC MSI PRO Z790-S WF - 4.990.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/ 14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4x DDR5 6600+(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Maximum 192GB)</option>
+<option value="Mainboard PC ASUS ROG STRIX B760-G GAMING WIFI">Mainboard PC ASUS ROG STRIX B760-G GAMING WIFI - 5.190.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/ 14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600/ 5400/ 5200/ 5000/ 4800MHz (Maximum 192GB)</option>
+<option value="Mainboard PC MSI B760M PROJECT ZERO">Mainboard PC MSI B760M PROJECT ZERO - 5.390.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th/14th, Pentium Gold & Celeron
+	LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4x DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Maximum 192GB)</option>
+<option value="Mainboard PC ASUS Z790-AYW WIFI W">Mainboard PC ASUS Z790-AYW WIFI W - 5.490.000 ₫ - Socket: LGA 1700 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS TUF GAMING B760M-BTF WIFI D4">Mainboard PC ASUS TUF GAMING B760M-BTF WIFI D4 - 5.790.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/
+	Socket LGA1700
+	* Tham khảo www.asus.com để biết danh sách hỗ trợ CPU. - Hỗ trợ Ram: Hỗ trợ Ram
+	4x DDR4 5333(OC)/ 5066(OC)/ 5000(OC)/ 4800(OC)/ 4600(OC)/ 4400(OC)/ 4266(OC)/ 4000(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3400(OC)/ 3333(OC)/ 3200/ 3000/ 2933/ 2800/ 2666/ 2400/2133 MHz (Maximum 128GB)</option>
+<option value="Mainboard PC Gigabyte B850M GAMING X WIFI6E">Mainboard PC Gigabyte B850M GAMING X WIFI6E - 5.990.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI Z790 GAMING PLUS WIFI">Mainboard PC MSI Z790 GAMING PLUS WIFI - 6.250.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/ 14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4x DDR5 7200+(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Maximum 256GB)</option>
+<option value="Mainboard PC MSI PRO Z890-S WIFI">Mainboard PC MSI PRO Z890-S WIFI - 6.390.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI PRO Z890-S WIFI WHITE">Mainboard PC MSI PRO Z890-S WIFI WHITE - 6.490.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte B850M AORUS ELITE WIFI6E ICE">Mainboard PC Gigabyte B850M AORUS ELITE WIFI6E ICE - 6.990.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI PRO Z890-P WIFI">Mainboard PC MSI PRO Z890-P WIFI - 6.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock Z790 Steel Legend WiFi">Mainboard PC ASRock Z790 Steel Legend WiFi - 7.250.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th & 13th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	4 x DDR5 up to 6800+(OC) MHz (Maximum 128GB)</option>
+<option value="Mainboard PC Gigabyte Z890 UD WIFI 6E">Mainboard PC Gigabyte Z890 UD WIFI 6E - 7.290.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock Z890 PRO RS WIFI WHITE">Mainboard PC ASRock Z890 PRO RS WIFI WHITE - 7.490.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock X870 PRO RS WIFI">Mainboard PC ASRock X870 PRO RS WIFI - 7.490.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS PRIME Z890-P CSM">Mainboard PC ASUS PRIME Z890-P CSM - 7.590.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte X870 EAGLE WIFI 7">Mainboard PC Gigabyte X870 EAGLE WIFI 7 - 7.590.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI PRO Z890-A WIFI">Mainboard PC MSI PRO Z890-A WIFI - 7.690.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI X670E GAMING PLUS WIFI">Mainboard PC MSI X670E GAMING PLUS WIFI - 7.790.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	AMD Ryzen™ 8000/ 7000 Series
+	Socket AM5 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 5000(OC)/ 4800(JEDEC) MHz (Max 256GB)</option>
+<option value="Mainboard PC Gigabyte Z790 AORUS ELITE AX">Mainboard PC Gigabyte Z790 AORUS ELITE AX - 7.790.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC) /6800(OC) /6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(OC)/ 5400(OC)/ 5200(OC)/ 4800/ 4000 MHz (Max 192GB)</option>
+<option value="Mainboard PC MSI Z890 GAMING PLUS WIFI">Mainboard PC MSI Z890 GAMING PLUS WIFI - 7.890.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS PRIME Z890-P WIFI CSM">Mainboard PC ASUS PRIME Z890-P WIFI CSM - 7.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock Z890M RIPTIDE WIFI">Mainboard PC ASRock Z890M RIPTIDE WIFI - 7.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte X870 GAMING X WIFI 7">Mainboard PC Gigabyte X870 GAMING X WIFI 7 - 7.990.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z890 EAGLE WIFI 7">Mainboard PC Gigabyte Z890 EAGLE WIFI 7 - 7.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock X870 STEEL LEGEND WIFI">Mainboard PC ASRock X870 STEEL LEGEND WIFI - 8.190.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MAG Z790 TOMAHAWK MAX WIFI">Mainboard PC MSI MAG Z790 TOMAHAWK MAX WIFI - 8.290.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/13th/14th, Pentium Gold & Celeron
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Max 192GB)</option>
+<option value="Mainboard PC ASUS PRIME X870-P WIFI-CSM">Mainboard PC ASUS PRIME X870-P WIFI-CSM - 8.490.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z790 AORUS ELITE X WIFI7">Mainboard PC Gigabyte Z790 AORUS ELITE X WIFI7 - 8.490.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 14th,13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 8266(O.C)/ 8200(O.C)/ 8000(O.C) / 7950(O.C)/ 7900(O.C)/ 7800(O.C)/ 7600(O.C.)/ 7400(O.C.)/ 7200(O.C.)/ 7000(O.C.)/ 6800(O.C.)/ 6600(O.C.)/ 6400(O.C.)/ 6200(O.C.)/ 6000(O.C.)/ 5800(O.C.)/ 5600(O.C.)/ 5400(O.C.)/ 5200(O.C.)/ 4800/ 4000 MHz (Max 192GB)</option>
+<option value="Mainboard PC Gigabyte Z790 A ELITE AX ICE">Mainboard PC Gigabyte Z790 A ELITE AX ICE - 8.590.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 14th,13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7600(O.C.) /7400(O.C.) /7200(O.C.) /7000(O.C.) /6800(O.C.) /6600(O.C.) / 6400(O.C.) / 6200(O.C.) / 6000(O.C.) / 5800(O.C.) / 5600(O.C.) / 5400(O.C.) / 5200(O.C.) / 4800 / 4000 MHz (Max 192GB)</option>
+<option value="Mainboard PC ASUS PRIME Z890M-PLUS WIFI CSM">Mainboard PC ASUS PRIME Z890M-PLUS WIFI CSM - 8.690.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock Z890 LIGHTNING WIFI">Mainboard PC ASRock Z890 LIGHTNING WIFI - 8.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock Z890 STEEL LEGEND WIFI">Mainboard PC ASRock Z890 STEEL LEGEND WIFI - 8.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z890 AORUS ELITE WIFI 7">Mainboard PC Gigabyte Z890 AORUS ELITE WIFI 7 - 8.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte X870 AORUS ELITE WIFI 7">Mainboard PC Gigabyte X870 AORUS ELITE WIFI 7 - 9.190.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z890 AORUS ELITE WIFI 7 ICE">Mainboard PC Gigabyte Z890 AORUS ELITE WIFI 7 ICE - 9.490.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MAG Z890 TOMAHAWK WIFI">Mainboard PC MSI MAG Z890 TOMAHAWK WIFI - 9.790.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MAG X870 TOMAHAWK WIFI">Mainboard PC MSI MAG X870 TOMAHAWK WIFI - 9.990.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte X870 AORUS ELITE WIFI 7 ICE">Mainboard PC Gigabyte X870 AORUS ELITE WIFI 7 ICE - 9.990.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z790 AORUS PRO X">Mainboard PC Gigabyte Z790 AORUS PRO X - 9.990.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 14th,13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 8266(O.C)/ 8200(O.C)/ 8000(O.C) / 7950(O.C)/ 7900(O.C)/ 7800(O.C)/ 7600(O.C.)/ 7400(O.C.)/ 7200(O.C.)/ 7000(O.C.)/ 6800(O.C.)/ 6600(O.C.)/ 6400(O.C.)/ 6200(O.C.)/ 6000(O.C.)/ 5800(O.C.)/ 5600(O.C.)/ 5400(O.C.)/ 5200(O.C.)/ 4800/ 4000 MHz (Max 192GB)</option>
+<option value="Mainboard PC MSI MPG Z890 EDGE TI WIFI">Mainboard PC MSI MPG Z890 EDGE TI WIFI - 11.290.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASRock Z890 NOVA WIFI">Mainboard PC ASRock Z890 NOVA WIFI - 11.590.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS ROG STRIX Z890-A GAMING WIFI">Mainboard PC ASUS ROG STRIX Z890-A GAMING WIFI - 13.190.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS ROG STRIX Z890-F GAMING WIFI">Mainboard PC ASUS ROG STRIX Z890-F GAMING WIFI - 13.790.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MPG X670E CARBON WIFI">Mainboard PC MSI MPG X670E CARBON WIFI - 14.690.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	AMD Ryzen™ 7000 Series
+	Socket AM5 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 Up to 6600+(OC) MHz (Maximum 128GB)</option>
+<option value="Mainboard PC ASUS ProArt Z890-CREATOR WIFI">Mainboard PC ASUS ProArt Z890-CREATOR WIFI - 14.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MPG Z890 CARBON WIFI">Mainboard PC MSI MPG Z890 CARBON WIFI - 15.390.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS ROG STRIX Z890-E GAMING WIFI">Mainboard PC ASUS ROG STRIX Z890-E GAMING WIFI - 15.490.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC Gigabyte Z790 AORUS MASTER X">Mainboard PC Gigabyte Z790 AORUS MASTER X - 15.990.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	LGA1700 socket với Core gen 14th,13th, 12th
+	L3 cache varies with CPU - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 8266(O.C)/ 8200(O.C)/ 8000(O.C) / 7950(O.C)/ 7900(O.C)/ 7800(O.C)/ 7600(O.C.)/ 7400(O.C.)/ 7200(O.C.)/ 7000(O.C.)/ 6800(O.C.)/ 6600(O.C.)/ 6400(O.C.)/ 6200(O.C.)/ 6000(O.C.)/ 5800(O.C.)/ 5600(O.C.)/ 5400(O.C.)/ 5200(O.C.)/ 4800/ 4000 MHz (Max 192GB)</option>
+<option value="Mainboard PC MSI MEG Z790 ACE">Mainboard PC MSI MEG Z790 ACE - 16.990.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel 12th/13th
+	LGA 1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	4 x DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC) MHz (Maximum 192GB)</option>
+<option value="Mainboard PC ASUS ROG MAXIMUS Z790 APEX ENCORE">Mainboard PC ASUS ROG MAXIMUS Z790 APEX ENCORE - 17.490.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	Intel Core 12th/ 13th/ 14th
+	Socket LGA1700 - Hỗ trợ Ram: Hỗ trợ Ram
+	2 x DDR5 8400+(OC)/ 8200+(OC)/ 8000+(OC)/ 7800(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600/ 5400/ 5200/ 5000/ 4800MHz Non-ECC (Maximum 96GB)</option>
+<option value="Mainboard PC Gigabyte Z890 AORUS MASTER">Mainboard PC Gigabyte Z890 AORUS MASTER - 17.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS ROG MAXIMUS Z890 HERO">Mainboard PC ASUS ROG MAXIMUS Z890 HERO - 19.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MEG Z890 ACE">Mainboard PC MSI MEG Z890 ACE - 22.590.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MEG Z890 UNIFY-X">Mainboard PC MSI MEG Z890 UNIFY-X - 23.490.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC MSI MEG X870E GODLIKE">Mainboard PC MSI MEG X870E GODLIKE - 24.490.000 ₫ - Socket: LGA AM5 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+<option value="Mainboard PC ASUS Pro WS WRX80E-SAGE SE WIFI">Mainboard PC ASUS Pro WS WRX80E-SAGE SE WIFI - 27.690.000 ₫ - Socket: CPU hỗ trợ
+	
+	
+	AMD Ryzen Threadripper Pro Series
+	CPU Socket WRX80 - Hỗ trợ Ram: Hỗ trợ Ram
+	
+	8 x DDR4 DIMM Up to 3200 MHz (Maximum 2048GB)</option>
+<option value="Mainboard PC ASUS ROG MAXIMUS Z890 EXTREME">Mainboard PC ASUS ROG MAXIMUS Z890 EXTREME - 27.990.000 ₫ - Socket: LGA 1851 - Hỗ trợ Ram: 4x DDR5 DIMM Slot</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="VGA" style="margin-right: 10px;">chọn VGA</label>
+                <select name="VGA" id="VGA"><option value="VGA Asus TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 TUF-RTX5070TI-16G-GAMING">VGA Asus TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 TUF-RTX5070TI-16G-GAMING - Liên hệ</option>
+<option value="VGA Asus TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 OC Edition TUF-RTX5070TI-O16G-GAMING">VGA Asus TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 OC Edition TUF-RTX5070TI-O16G-GAMING - Liên hệ</option>
+<option value="VGA Asus PRIME GeForce RTX 4060 Ti OC 8GB GDDR6 PRIME-RTX4060TI-O8G">VGA Asus PRIME GeForce RTX 4060 Ti OC 8GB GDDR6 PRIME-RTX4060TI-O8G - Liên hệ</option>
+<option value="VGA MSI GeForce RTX 4070 VENTUS 2X E1 12G OC GDDR6X RTX-4070-VENTUS-2X-E1-12G-OC">VGA MSI GeForce RTX 4070 VENTUS 2X E1 12G OC GDDR6X RTX-4070-VENTUS-2X-E1-12G-OC - 15.990.000 ₫</option>
+<option value="VGA Asus GeForce GT 730 2GB GDDR5 GT730-SL-2GD5-BRK">VGA Asus GeForce GT 730 2GB GDDR5 GT730-SL-2GD5-BRK - 1.450.000 ₫</option>
+<option value="VGA Asus GeForce RTX 3050 DUAL 6GB GDDR6 DUAL-RTX3050-6G">VGA Asus GeForce RTX 3050 DUAL 6GB GDDR6 DUAL-RTX3050-6G - 4.590.000 ₫</option>
+<option value="VGA MSI GeForce RTX 3050 VENTUS 2X 6G OC GDDR6 RTX-3050-VENTUS-2X-6G-OC">VGA MSI GeForce RTX 3050 VENTUS 2X 6G OC GDDR6 RTX-3050-VENTUS-2X-6G-OC - 4.650.000 ₫</option>
+<option value="VGA Leadtek NVIDIA Quadro T400 4GB GDDR6">VGA Leadtek NVIDIA Quadro T400 4GB GDDR6 - 4.650.000 ₫</option>
+<option value="VGA Asus GeForce RTX 3050 DUAL 6GB OC GDDR6 DUAL-RTX3050-O6G">VGA Asus GeForce RTX 3050 DUAL 6GB OC GDDR6 DUAL-RTX3050-O6G - 4.690.000 ₫</option>
+<option value="VGA ASRock Radeon RX 6600 Challenger White 8GB GDDR6 RX6600 CLW 8G">VGA ASRock Radeon RX 6600 Challenger White 8GB GDDR6 RX6600 CLW 8G - 5.490.000 ₫</option>
+<option value="VGA Gigabyte Radeon RX 6600 EAGLE 8G GDDR6 GV-R66EAGLE-8GD">VGA Gigabyte Radeon RX 6600 EAGLE 8G GDDR6 GV-R66EAGLE-8GD - 5.550.000 ₫</option>
+<option value="VGA MSI GeForce RTX 3050 VENTUS 2X XS 8GB OC GDDR6 RTX-3050-VENTUS-2X-XS-8GB-OC">VGA MSI GeForce RTX 3050 VENTUS 2X XS 8GB OC GDDR6 RTX-3050-VENTUS-2X-XS-8GB-OC - 5.750.000 ₫</option>
+<option value="VGA Palit GeForce RTX 4060 8GB GDDR6 Infinity 2 NE64060019P1-1070L">VGA Palit GeForce RTX 4060 8GB GDDR6 Infinity 2 NE64060019P1-1070L - 7.350.000 ₫</option>
+<option value="VGA MSI GeForce RTX 3060 VENTUS 2X 12GB OC GDDR6">VGA MSI GeForce RTX 3060 VENTUS 2X 12GB OC GDDR6 - 7.350.000 ₫</option>
+<option value="VGA Asus Dual GeForce RTX 3060 V2 OC Edition 12GB GDDR6 DUAL-RTX3060-O12G-V2">VGA Asus Dual GeForce RTX 3060 V2 OC Edition 12GB GDDR6 DUAL-RTX3060-O12G-V2 - 7.650.000 ₫</option>
+<option value="VGA Sapphire Radeon PULSE RX 7600 Gaming OC 8G GDDR6">VGA Sapphire Radeon PULSE RX 7600 Gaming OC 8G GDDR6 - 7.790.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 VENTUS 2X BLACK 8G OC GDDR6 RTX-4060-VENTUS-2X-BLACK-8G-OC">VGA MSI GeForce RTX 4060 VENTUS 2X BLACK 8G OC GDDR6 RTX-4060-VENTUS-2X-BLACK-8G-OC - 7.790.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 3060 GAMING OC 12G GDDR6 GV-N3060GAMING-OC-12GD">VGA Gigabyte GeForce RTX 3060 GAMING OC 12G GDDR6 GV-N3060GAMING-OC-12GD - 7.850.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4060 EAGLE OC 8G GDDR6 GV-N4060EAGLE-OC-8GD">VGA Gigabyte GeForce RTX 4060 EAGLE OC 8G GDDR6 GV-N4060EAGLE-OC-8GD - 8.490.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 VENTUS 2X WHITE 8G OC GDDR6 RTX-4060-VENTUS-2X-WHITE-8G-OC">VGA MSI GeForce RTX 4060 VENTUS 2X WHITE 8G OC GDDR6 RTX-4060-VENTUS-2X-WHITE-8G-OC - 8.890.000 ₫</option>
+<option value="VGA Colorful iGame GeForce RTX 4060 Ultra W DUO OC 8GB-V GDDR6 RTX-4060-Ultra-W-DUO-OC-8GB-V">VGA Colorful iGame GeForce RTX 4060 Ultra W DUO OC 8GB-V GDDR6 RTX-4060-Ultra-W-DUO-OC-8GB-V - 8.990.000 ₫</option>
+<option value="VGA Leadtek NVIDIA QUADRO T1000 4GB GDDR6">VGA Leadtek NVIDIA QUADRO T1000 4GB GDDR6 - 9.390.000 ₫</option>
+<option value="VGA Sapphire Radeon PULSE RX 7600 XT Gaming OC 16G GDDR6">VGA Sapphire Radeon PULSE RX 7600 XT Gaming OC 16G GDDR6 - 9.490.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4060 GAMING OC 8G GDDR6 GV-N4060GAMING-OC-8GD">VGA Gigabyte GeForce RTX 4060 GAMING OC 8G GDDR6 GV-N4060GAMING-OC-8GD - 9.590.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 GAMING X NV Edition 8G GDDR6 RTX-4060-GAMING-X-NV-Edition-8G">VGA MSI GeForce RTX 4060 GAMING X NV Edition 8G GDDR6 RTX-4060-GAMING-X-NV-Edition-8G - 9.990.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 GAMING X 8G GDDR6 RTX-4060-GAMING-X-8G">VGA MSI GeForce RTX 4060 GAMING X 8G GDDR6 RTX-4060-GAMING-X-8G - 9.990.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4060 AERO OC 8GB GDDR6 GV-N4060AERO-OC-8GD">VGA Gigabyte GeForce RTX 4060 AERO OC 8GB GDDR6 GV-N4060AERO-OC-8GD - 10.490.000 ₫</option>
+<option value="VGA Leadtek NVIDIA QUADRO T1000 8GB GDDR6">VGA Leadtek NVIDIA QUADRO T1000 8GB GDDR6 - 11.590.000 ₫</option>
+<option value="VGA Sapphire Radeon PURE RX 7700 XT Gaming OC 12G GDDR6">VGA Sapphire Radeon PURE RX 7700 XT Gaming OC 12G GDDR6 - 12.290.000 ₫</option>
+<option value="VGA Sapphire NITRO+ Radeon RX 7700 XT Gaming OC 12G GDDR6">VGA Sapphire NITRO+ Radeon RX 7700 XT Gaming OC 12G GDDR6 - 12.790.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC GDDR6 RTX-4060-Ti-VENTUS-2X-BLACK-16G-OC">VGA MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 16G OC GDDR6 RTX-4060-Ti-VENTUS-2X-BLACK-16G-OC - 13.690.000 ₫</option>
+<option value="VGA Asus Dual GeForce RTX 4060 Ti EVO OC Edition 16GB GDDR6 DUAL-RTX4060TI-O16G-EVO">VGA Asus Dual GeForce RTX 4060 Ti EVO OC Edition 16GB GDDR6 DUAL-RTX4060TI-O16G-EVO - 13.990.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4060 Ti GAMING OC 16G GDDR6 GV-N406TGAMING-OC-16GD">VGA Gigabyte GeForce RTX 4060 Ti GAMING OC 16G GDDR6 GV-N406TGAMING-OC-16GD - 13.990.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 Ti VENTUS 3X 16G OC GDDR6 RTX-4060-Ti-VENTUS-3X-16G-OC">VGA MSI GeForce RTX 4060 Ti VENTUS 3X 16G OC GDDR6 RTX-4060-Ti-VENTUS-3X-16G-OC - 14.150.000 ₫</option>
+<option value="VGA Sapphire Radeon PURE RX 7800 XT Gaming OC 16G GDDR6">VGA Sapphire Radeon PURE RX 7800 XT Gaming OC 16G GDDR6 - 14.590.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4060 Ti GAMING X SLIM 16G GDDR6 RTX-4060-Ti-GAMING-X-SLIM-16G">VGA MSI GeForce RTX 4060 Ti GAMING X SLIM 16G GDDR6 RTX-4060-Ti-GAMING-X-SLIM-16G - 14.890.000 ₫</option>
+<option value="VGA Sapphire NITRO+ Radeon RX 7800 XT Gaming OC 16G GDDR6">VGA Sapphire NITRO+ Radeon RX 7800 XT Gaming OC 16G GDDR6 - 15.090.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4060 Ti AERO OC 16G GDDR6 GV-N406TAERO-OC-16GD">VGA Gigabyte GeForce RTX 4060 Ti AERO OC 16G GDDR6 GV-N406TAERO-OC-16GD - 15.650.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4070 VENTUS 3X E1 12G OC GDDR6X RTX-4070-VENTUS-3X-E1-12G-OC">VGA MSI GeForce RTX 4070 VENTUS 3X E1 12G OC GDDR6X RTX-4070-VENTUS-3X-E1-12G-OC - 16.990.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4070 SUPER VENTUS 3X 12G OC GDDR6X">VGA MSI GeForce RTX 4070 SUPER VENTUS 3X 12G OC GDDR6X - 17.490.000 ₫</option>
+<option value="VGA Colorful iGame GeForce RTX 4070 Super Ultra W OC 12GB-V GDDR6X">VGA Colorful iGame GeForce RTX 4070 Super Ultra W OC 12GB-V GDDR6X - 17.890.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4070 SUPER VENTUS 2X WHITE 12G OC GDDR6X">VGA MSI GeForce RTX 4070 SUPER VENTUS 2X WHITE 12G OC GDDR6X - 17.990.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4070 SUPER GAMING X SLIM 12G GDDR6X">VGA MSI GeForce RTX 4070 SUPER GAMING X SLIM 12G GDDR6X - 18.880.000 ₫</option>
+<option value="VGA Asus TUF Gaming GeForce RTX 4070 OC Edition 12GB GDDR6X TUF-RTX4070-O12G-GAMING">VGA Asus TUF Gaming GeForce RTX 4070 OC Edition 12GB GDDR6X TUF-RTX4070-O12G-GAMING - 18.990.000 ₫</option>
+<option value="VGA Leadtek NVIDIA QUADRO RTX A2000 12GB GDDR6">VGA Leadtek NVIDIA QUADRO RTX A2000 12GB GDDR6 - 19.090.000 ₫</option>
+<option value="VGA Asus PRIME GeForce RTX 4070 Super 12GB GDDR6X PRIME-RTX4070S-12G">VGA Asus PRIME GeForce RTX 4070 Super 12GB GDDR6X PRIME-RTX4070S-12G - 19.190.000 ₫</option>
+<option value="VGA Asus Dual GeForce RTX 4070 SUPER EVO OC Edition 12GB GDDR6X DUAL-RTX4070S-O12G-EVO">VGA Asus Dual GeForce RTX 4070 SUPER EVO OC Edition 12GB GDDR6X DUAL-RTX4070S-O12G-EVO - 19.350.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4070 Super Eagle OC 12G GDDR6X GV-N407SEAGLE-OC-12GD">VGA Gigabyte GeForce RTX 4070 Super Eagle OC 12G GDDR6X GV-N407SEAGLE-OC-12GD - 19.390.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4070 SUPER GAMING X SLIM MLG 12G GDDR6X">VGA MSI GeForce RTX 4070 SUPER GAMING X SLIM MLG 12G GDDR6X - 19.490.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4070 SUPER EAGLE OC ICE 12GB GDDR6X N407SEAGLEOC-ICE-12GD">VGA Gigabyte GeForce RTX 4070 SUPER EAGLE OC ICE 12GB GDDR6X N407SEAGLEOC-ICE-12GD - 19.590.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4070 Super Gaming OC 12G GDDR6X GV-N407SGAMING-OC-12GD">VGA Gigabyte GeForce RTX 4070 Super Gaming OC 12G GDDR6X GV-N407SGAMING-OC-12GD - 19.890.000 ₫</option>
+<option value="VGA ASRock Radeon RX 7900 XT Phantom Gaming White 20GB OC GDDR6 RX7900XT-PGW-20GO">VGA ASRock Radeon RX 7900 XT Phantom Gaming White 20GB OC GDDR6 RX7900XT-PGW-20GO - 21.990.000 ₫</option>
+<option value="VGA Sapphire NITRO+ Radeon RX 7900 XT Gaming OC Vapor-X 20G GDDR6">VGA Sapphire NITRO+ Radeon RX 7900 XT Gaming OC Vapor-X 20G GDDR6 - 22.990.000 ₫</option>
+<option value="VGA Leadtek NVIDIA QUADRO RTX 2000 ADA 16GB GDDR6">VGA Leadtek NVIDIA QUADRO RTX 2000 ADA 16GB GDDR6 - 23.650.000 ₫</option>
+<option value="VGA Colorful iGame GeForce RTX 4070 Ti Super Ultra W OC 16GB-V GDDR6X">VGA Colorful iGame GeForce RTX 4070 Ti Super Ultra W OC 16GB-V GDDR6X - 23.690.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4070 Ti SUPER VENTUS 3X 16G OC GDDR6X">VGA MSI GeForce RTX 4070 Ti SUPER VENTUS 3X 16G OC GDDR6X - 24.990.000 ₫</option>
+<option value="VGA Asus TUF GeForce RTX 4070 Ti Super White 16GB OC GDDR6X TUF-RTX4070TIS-O16G-WHITE-GAMING">VGA Asus TUF GeForce RTX 4070 Ti Super White 16GB OC GDDR6X TUF-RTX4070TIS-O16G-WHITE-GAMING - 27.990.000 ₫</option>
+<option value="VGA Asus TUF Gaming GeForce RTX 4070 Ti SUPER BTF White OC Edition 16GB GDDR6X TUF-RTX4070TIS-O16G-BTF-WHITE">VGA Asus TUF Gaming GeForce RTX 4070 Ti SUPER BTF White OC Edition 16GB GDDR6X TUF-RTX4070TIS-O16G-BTF-WHITE - 28.990.000 ₫</option>
+<option value="VGA Sapphire NITRO+ Radeon RX 7900 XTX Gaming OC Vapor-X 24G GDDR6">VGA Sapphire NITRO+ Radeon RX 7900 XTX Gaming OC Vapor-X 24G GDDR6 - 30.990.000 ₫</option>
+<option value="VGA MSI GeForce MSI RTX 4080 SUPER 16G GAMING X SLIM GDDR6X">VGA MSI GeForce MSI RTX 4080 SUPER 16G GAMING X SLIM GDDR6X - 31.690.000 ₫</option>
+<option value="VGA MSI GeForce MSI RTX 4080 SUPER 16G EXPERT GDDR6X">VGA MSI GeForce MSI RTX 4080 SUPER 16G EXPERT GDDR6X - 33.450.000 ₫</option>
+<option value="VGA Gigabyte GeForce RTX 4080 Super Gaming OC 16GB GDDR6X N408SGAMING-OC-16GD">VGA Gigabyte GeForce RTX 4080 Super Gaming OC 16GB GDDR6X N408SGAMING-OC-16GD - 33.490.000 ₫</option>
+<option value="VGA MSI GeForce MSI RTX 4080 SUPER 16G GAMING X TRIO GDDR6X">VGA MSI GeForce MSI RTX 4080 SUPER 16G GAMING X TRIO GDDR6X - 33.990.000 ₫</option>
+<option value="VGA MSI GeForce RTX 4080 SUPER SUPRIM X 16G GDDR6X">VGA MSI GeForce RTX 4080 SUPER SUPRIM X 16G GDDR6X - 35.490.000 ₫</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="RAM" style="margin-right: 10px;">chọn Ram</label>
+                <select name="RAM" id="RAM"><option value="Ram PC G.SKILL Aegis 4GB 1600MHz DDR3 (4GBx1) F3-1600C11S-4GIS">Ram PC G.SKILL Aegis 4GB 1600MHz DDR3 (4GBx1) F3-1600C11S-4GIS - 230.000 ₫</option>
+<option value="Ram PC HP V2 8GB 3200MHz DDR4 18X15AA">Ram PC HP V2 8GB 3200MHz DDR4 18X15AA - 350.000 ₫</option>
+<option value="Ram PC G.SKILL Aegis 8GB 3200MHz DDR4 F4-3200C16S-8GIS">Ram PC G.SKILL Aegis 8GB 3200MHz DDR4 F4-3200C16S-8GIS - 350.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast Black 8GB 3200MHz DDR4 KF432C16BB/8">Ram PC Kingston Fury Beast Black 8GB 3200MHz DDR4 KF432C16BB/8 - 370.000 ₫</option>
+<option value="Ram PC Corsair Vengeance LPX 8GB 3200MHz DDR4 CMK8GX4M1E3200C16">Ram PC Corsair Vengeance LPX 8GB 3200MHz DDR4 CMK8GX4M1E3200C16 - 370.000 ₫</option>
+<option value="Ram PC Kingston 8GB 3200MHz DDR4 KVR32N22S8/8">Ram PC Kingston 8GB 3200MHz DDR4 KVR32N22S8/8 - 370.000 ₫</option>
+<option value="Ram PC G.SKILL Aegis 8GB 1600MHz DDR3 (8GBx1) F3-1600C11S-8GIS">Ram PC G.SKILL Aegis 8GB 1600MHz DDR3 (8GBx1) F3-1600C11S-8GIS - 390.000 ₫</option>
+<option value="Ram PC HP V2 16GB 3200MHz DDR4 18X16AA">Ram PC HP V2 16GB 3200MHz DDR4 18X16AA - 650.000 ₫</option>
+<option value="Ram PC Corsair Vengeance LPX 16GB 3200MHz DDR4 CMK16GX4M1E3200C16">Ram PC Corsair Vengeance LPX 16GB 3200MHz DDR4 CMK16GX4M1E3200C16 - 660.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast Black 16GB 3200MHz DDR4 KF432C16BB/16">Ram PC Kingston Fury Beast Black 16GB 3200MHz DDR4 KF432C16BB/16 - 660.000 ₫</option>
+<option value="Ram PC Kingston 16GB 3200MHz DDR4 KVR32N22S8/16">Ram PC Kingston 16GB 3200MHz DDR4 KVR32N22S8/16 - 690.000 ₫</option>
+<option value="Ram PC Crucial 8GB 4800MHz DDR5 CT8G48C40U5">Ram PC Crucial 8GB 4800MHz DDR5 CT8G48C40U5 - 700.000 ₫</option>
+<option value="Ram PC Lexar ARES RGB Black 16GB 3600MHz DDR4 (2x8GB) LD4BU008G-R3600GDLA">Ram PC Lexar ARES RGB Black 16GB 3600MHz DDR4 (2x8GB) LD4BU008G-R3600GDLA - 990.000 ₫</option>
+<option value="Ram PC Corsair Vengeance 16GB 5200MHz DDR5 CMK16GX5M1B5200C40">Ram PC Corsair Vengeance 16GB 5200MHz DDR5 CMK16GX5M1B5200C40 - 1.150.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z RGB 16GB 3600MHz DDR4 (8GBx2) F4-3600C18D-16GTZR">Ram PC G.SKILL Trident Z RGB 16GB 3600MHz DDR4 (8GBx2) F4-3600C18D-16GTZR - 1.150.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast Black 16GB 5600MHz DDR5 KF556C40BB-16">Ram PC Kingston Fury Beast Black 16GB 5600MHz DDR5 KF556C40BB-16 - 1.160.000 ₫</option>
+<option value="Ram PC Corsair Vengeance 16GB 5600MHz DDR5 CMK16GX5M1B5600C40">Ram PC Corsair Vengeance 16GB 5600MHz DDR5 CMK16GX5M1B5600C40 - 1.290.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB Pro 16GB 3200Mhz DDR4 (2x8GB) CMW16GX4M2E3200C16W">Ram PC Corsair Vengeance RGB Pro 16GB 3200Mhz DDR4 (2x8GB) CMW16GX4M2E3200C16W - 1.350.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast RGB 16GB 5600MHz DDR5 (2x8GB) KF556C40BBAK2-16">Ram PC Kingston Fury Beast RGB 16GB 5600MHz DDR5 (2x8GB) KF556C40BBAK2-16 - 1.650.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z RGB 32GB 3600MHz DDR4 (16GBx2) F4-3600C18D-32GTZR">Ram PC G.SKILL Trident Z RGB 32GB 3600MHz DDR4 (16GBx2) F4-3600C18D-32GTZR - 1.750.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB RS 32GB 3200MHz DDR4 (2x16GB) CMG32GX4M2E3200C16">Ram PC Corsair Vengeance RGB RS 32GB 3200MHz DDR4 (2x16GB) CMG32GX4M2E3200C16 - 1.750.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z Neo 32GB 3600MHz DDR4 (16GBx2) F4-3600C18D-32GTZN">Ram PC G.SKILL Trident Z Neo 32GB 3600MHz DDR4 (16GBx2) F4-3600C18D-32GTZN - 1.790.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB RS 32GB 3600MHz DDR4 (2x16GB) CMG32GX4M2D3600C18">Ram PC Corsair Vengeance RGB RS 32GB 3600MHz DDR4 (2x16GB) CMG32GX4M2D3600C18 - 1.850.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 16GB 3200Mhz DDR4 (2x8GB) CMT16GX4M2E3200C16">Ram PC Corsair Dominator Platinum RGB 16GB 3200Mhz DDR4 (2x8GB) CMT16GX4M2E3200C16 - 1.990.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum White RGB 16GB 3200Mhz DDR4 (2x8GB) CMT16GX4M2C3200C16W">Ram PC Corsair Dominator Platinum White RGB 16GB 3200Mhz DDR4 (2x8GB) CMT16GX4M2C3200C16W - 1.990.000 ₫</option>
+<option value="Ram PC Corsair Vengeance 32GB 5200MHz DDR5 (2x16GB) CMK32GX5M2B5200C40">Ram PC Corsair Vengeance 32GB 5200MHz DDR5 (2x16GB) CMK32GX5M2B5200C40 - 2.090.000 ₫</option>
+<option value="Ram PC G.SKILL Ripjaws S5 32GB 5600MHz DDR5 (16GBx2) F5-5600J4645A16GX2-RS5W">Ram PC G.SKILL Ripjaws S5 32GB 5600MHz DDR5 (16GBx2) F5-5600J4645A16GX2-RS5W - 2.390.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast Black 32GB 5200MHz DDR5 (2x16GB) KF552C40BBK2-32">Ram PC Kingston Fury Beast Black 32GB 5200MHz DDR5 (2x16GB) KF552C40BBK2-32 - 2.390.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast Black 32GB 5600MHz DDR5 (2x16GB) KF556C40BBK2-32">Ram PC Kingston Fury Beast Black 32GB 5600MHz DDR5 (2x16GB) KF556C40BBK2-32 - 2.650.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB White 32GB 6000MHz DDR5 (2x16GB) CMH32GX5M2E6000C36W">Ram PC Corsair Vengeance RGB White 32GB 6000MHz DDR5 (2x16GB) CMH32GX5M2E6000C36W - 2.690.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB 32GB 6000MHz DDR5 (2x16GB) CMH32GX5M2E6000C36">Ram PC Corsair Vengeance RGB 32GB 6000MHz DDR5 (2x16GB) CMH32GX5M2E6000C36 - 2.690.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum White RGB 32GB 3200Mhz DDR4 (2x16GB) CMT32GX4M2E3200C16W">Ram PC Corsair Dominator Platinum White RGB 32GB 3200Mhz DDR4 (2x16GB) CMT32GX4M2E3200C16W - 2.770.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 32GB 3200Mhz DDR4 (2x16GB) CMT32GX4M2E3200C16">Ram PC Corsair Dominator Platinum RGB 32GB 3200Mhz DDR4 (2x16GB) CMT32GX4M2E3200C16 - 2.770.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast RGB 32GB 5600MHz DDR5 (2x16GB) KF556C40BBAK2-32">Ram PC Kingston Fury Beast RGB 32GB 5600MHz DDR5 (2x16GB) KF556C40BBAK2-32 - 2.800.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast Black 32GB 6000MHz DDR5 (2x16GB) KF560C40BBK2-32">Ram PC Kingston Fury Beast Black 32GB 6000MHz DDR5 (2x16GB) KF560C40BBK2-32 - 2.850.000 ₫</option>
+<option value="Ram PC Corsair Vengeance 32GB 5600MHz DDR5 (2x16GB) CMK32GX5M2B5600C40">Ram PC Corsair Vengeance 32GB 5600MHz DDR5 (2x16GB) CMK32GX5M2B5600C40 - 2.950.000 ₫</option>
+<option value="RAM PC Kingston Fury Beast RGB 32GB 6000MHz DDR5 (2x16GB) KF560C30BBAK2-32">RAM PC Kingston Fury Beast RGB 32GB 6000MHz DDR5 (2x16GB) KF560C30BBAK2-32 - 2.990.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z5 Neo RGB 32GB 6000MHz DDR5 (16GBx2) F5-6000J3636F16GX2-TZ5NR">Ram PC G.SKILL Trident Z5 Neo RGB 32GB 6000MHz DDR5 (16GBx2) F5-6000J3636F16GX2-TZ5NR - 2.990.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB RS 64GB 3200MHz DDR4 (2x32GB) CMG64GX4M2E3200C16">Ram PC Corsair Vengeance RGB RS 64GB 3200MHz DDR4 (2x32GB) CMG64GX4M2E3200C16 - 3.250.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z RGB 64GB 3600MHz DDR4 (32GBx2) F4-3600C18D-64GTZR">Ram PC G.SKILL Trident Z RGB 64GB 3600MHz DDR4 (32GBx2) F4-3600C18D-64GTZR - 3.390.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB RS 64GB 3600MHz DDR4 (2x32GB) CMG64GX4M2D3600C18">Ram PC Corsair Vengeance RGB RS 64GB 3600MHz DDR4 (2x32GB) CMG64GX4M2D3600C18 - 3.490.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z Neo 64GB 3600MHz DDR4 (32GBx2) F4-3600C18D-64GTZN">Ram PC G.SKILL Trident Z Neo 64GB 3600MHz DDR4 (32GBx2) F4-3600C18D-64GTZN - 3.490.000 ₫</option>
+<option value="RAM PC G.SKILL Trident Z5 Royal RGB 32GB 6400MHz DDR5 (2x16GB) F5-6400J3239G16GX2-TR5S">RAM PC G.SKILL Trident Z5 Royal RGB 32GB 6400MHz DDR5 (2x16GB) F5-6400J3239G16GX2-TR5S - 3.590.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB White 32GB 5600Mhz DDR5 (2x16GB) CMT32GX5M2B5600C36W">Ram PC Corsair Dominator Platinum RGB White 32GB 5600Mhz DDR5 (2x16GB) CMT32GX5M2B5600C36W - 3.990.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 32GB 5600Mhz DDR5 (2x16GB) CMT32GX5M2B5600C36">Ram PC Corsair Dominator Platinum RGB 32GB 5600Mhz DDR5 (2x16GB) CMT32GX5M2B5600C36 - 3.990.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB White 32GB 6000Mhz DDR5 (2x16GB) CMT32GX5M2X6000C36W">Ram PC Corsair Dominator Platinum RGB White 32GB 6000Mhz DDR5 (2x16GB) CMT32GX5M2X6000C36W - 4.250.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 32GB 6000Mhz DDR5 (2x16GB) CMT32GX5M2X6000C36">Ram PC Corsair Dominator Platinum RGB 32GB 6000Mhz DDR5 (2x16GB) CMT32GX5M2X6000C36 - 4.250.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 32GB 6200Mhz DDR5 (2x16GB) CMT32GX5M2X6200C36">Ram PC Corsair Dominator Platinum RGB 32GB 6200Mhz DDR5 (2x16GB) CMT32GX5M2X6200C36 - 4.490.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 32GB 6000MHz DDR5 (2x16GB) CMP32GX5M2B6000C30W">Ram PC Corsair Dominator Titanium White 32GB 6000MHz DDR5 (2x16GB) CMP32GX5M2B6000C30W - 4.790.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 32GB 6000MHz DDR5 (2x16GB) CMP32GX5M2B6000C30">Ram PC Corsair Dominator Titanium 32GB 6000MHz DDR5 (2x16GB) CMP32GX5M2B6000C30 - 4.790.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB 64GB 5600MHz DDR5 (2x32GB) CMH64GX5M2B5600C40">Ram PC Corsair Vengeance RGB 64GB 5600MHz DDR5 (2x32GB) CMH64GX5M2B5600C40 - 4.850.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB 64GB 5600MHz DDR5 (2x32GB) CMH64GX5M2B5600C40W">Ram PC Corsair Vengeance RGB 64GB 5600MHz DDR5 (2x32GB) CMH64GX5M2B5600C40W - 4.850.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast RGB 64GB 5600MHz DDR5 (2x32GB) KF556C40BBAK2-64">Ram PC Kingston Fury Beast RGB 64GB 5600MHz DDR5 (2x32GB) KF556C40BBAK2-64 - 4.850.000 ₫</option>
+<option value="Ram PC Kingston Fury Beast RGB 64GB 5200MHz DDR5 (2x32GB) KF552C40BBAK2-64">Ram PC Kingston Fury Beast RGB 64GB 5200MHz DDR5 (2x32GB) KF552C40BBAK2-64 - 4.900.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB 64GB 6000MHz DDR5 (2x32GB) CMH64GX5M2B6000C38">Ram PC Corsair Vengeance RGB 64GB 6000MHz DDR5 (2x32GB) CMH64GX5M2B6000C38 - 5.050.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 32GB 6600MHz DDR5 (2x16GB) CMP32GX5M2X6600C32W">Ram PC Corsair Dominator Titanium White 32GB 6600MHz DDR5 (2x16GB) CMP32GX5M2X6600C32W - 5.200.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 32GB 6600MHz DDR5 (2x16GB) CMP32GX5M2X6600C32">Ram PC Corsair Dominator Titanium 32GB 6600MHz DDR5 (2x16GB) CMP32GX5M2X6600C32 - 5.200.000 ₫</option>
+<option value="RAM PC Kingston Fury Beast RGB 64GB 6000MHz DDR5 (2x32GB) KF560C40BBAK2-64">RAM PC Kingston Fury Beast RGB 64GB 6000MHz DDR5 (2x32GB) KF560C40BBAK2-64 - 5.690.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 32GB 7200MHz DDR5 (2x16GB) CMP32GX5M2X7200C34W">Ram PC Corsair Dominator Titanium White 32GB 7200MHz DDR5 (2x16GB) CMP32GX5M2X7200C34W - 5.750.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 32GB 7200MHz DDR5 (2x16GB) CMP32GX5M2X7200C34">Ram PC Corsair Dominator Titanium 32GB 7200MHz DDR5 (2x16GB) CMP32GX5M2X7200C34 - 5.750.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB White 64GB 5200Mhz DDR5 (2x32GB) CMT64GX5M2B5200C40W">Ram PC Corsair Dominator Platinum RGB White 64GB 5200Mhz DDR5 (2x32GB) CMT64GX5M2B5200C40W - 5.750.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 64GB 5200Mhz DDR5 (2x32GB) CMT64GX5M2B5200C40">Ram PC Corsair Dominator Platinum RGB 64GB 5200Mhz DDR5 (2x32GB) CMT64GX5M2B5200C40 - 5.750.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z5 RGB 48GB 7200MHz DDR5 (24GBx2) F5-7200J3646F24GX2-TZ5RK">Ram PC G.SKILL Trident Z5 RGB 48GB 7200MHz DDR5 (24GBx2) F5-7200J3646F24GX2-TZ5RK - 5.850.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z5 Neo RGB 64GB 6000MHz DDR5 (32GBx2) F5-6000J3238G32GX2-TZ5NR">Ram PC G.SKILL Trident Z5 Neo RGB 64GB 6000MHz DDR5 (32GBx2) F5-6000J3238G32GX2-TZ5NR - 5.900.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB White 64GB 5600MHz DDR5 (2x32GB) CMT64GX5M2B5600C40W">Ram PC Corsair Dominator Platinum RGB White 64GB 5600MHz DDR5 (2x32GB) CMT64GX5M2B5600C40W - 5.950.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 64GB 5600MHz DDR5 (2x32GB) CMT64GX5M2B5600C40">Ram PC Corsair Dominator Platinum RGB 64GB 5600MHz DDR5 (2x32GB) CMT64GX5M2B5600C40 - 5.950.000 ₫</option>
+<option value="RAM PC G.SKILL Trident Z5 Royal RGB 48GB 7200MHz DDR5 (2x24GB) F5-7200J3646F24GX2-TR5S">RAM PC G.SKILL Trident Z5 Royal RGB 48GB 7200MHz DDR5 (2x24GB) F5-7200J3646F24GX2-TR5S - 6.350.000 ₫</option>
+<option value="RAM PC G.SKILL Trident Z5 Royal RGB 64GB 6400MHz DDR5 (2x32GB) F5-6400J3239G32GX2-TR5S">RAM PC G.SKILL Trident Z5 Royal RGB 64GB 6400MHz DDR5 (2x32GB) F5-6400J3239G32GX2-TR5S - 6.350.000 ₫</option>
+<option value="RAM PC G.SKILL Trident Z5 CK 48GB 8200MHz DDR5 (2x24GB) F5-8200C4052G24GX2-TZ5CK">RAM PC G.SKILL Trident Z5 CK 48GB 8200MHz DDR5 (2x24GB) F5-8200C4052G24GX2-TZ5CK - 6.500.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 48GB 6000MHz DDR5 (2x24GB) CMP48GX5M2B6000C30W">Ram PC Corsair Dominator Titanium White 48GB 6000MHz DDR5 (2x24GB) CMP48GX5M2B6000C30W - 6.650.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 48GB 6000MHz DDR5 (2x24GB) CMP48GX5M2B6000C30">Ram PC Corsair Dominator Titanium 48GB 6000MHz DDR5 (2x24GB) CMP48GX5M2B6000C30 - 6.650.000 ₫</option>
+<option value="Ram PC Corsair Dominator Platinum RGB 64GB 6000MHz DDR5 (2x32GB) CMT64GX5M2B6000C40">Ram PC Corsair Dominator Platinum RGB 64GB 6000MHz DDR5 (2x32GB) CMT64GX5M2B6000C40 - 6.650.000 ₫</option>
+<option value="RAM PC G.SKILL Trident Z5 CK RGB 48GB 8200MHz DDR5 (2x24GB) F5-8200C4052G24GX2-TZ5CRK">RAM PC G.SKILL Trident Z5 CK RGB 48GB 8200MHz DDR5 (2x24GB) F5-8200C4052G24GX2-TZ5CRK - 6.999.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 48GB 7200MHz DDR5 (2x24GB) CMP48GX5M2X7200C36W">Ram PC Corsair Dominator Titanium White 48GB 7200MHz DDR5 (2x24GB) CMP48GX5M2X7200C36W - 7.150.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 48GB 7200MHz DDR5 (2x24GB) CMP48GX5M2X7200C36">Ram PC Corsair Dominator Titanium 48GB 7200MHz DDR5 (2x24GB) CMP48GX5M2X7200C36 - 7.150.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z5 RGB 48GB 7200MHz DDR5 (24GBx2) Matte White F5-7200J3646F24GX2-TZ5RW">Ram PC G.SKILL Trident Z5 RGB 48GB 7200MHz DDR5 (24GBx2) Matte White F5-7200J3646F24GX2-TZ5RW - 7.450.000 ₫</option>
+<option value="Ram PC G.SKILL Trident Z5 RGB 48GB 7200MHz DDR5 (24GBx2) White F5-7200J3646F24GX2-TZ5RS">Ram PC G.SKILL Trident Z5 RGB 48GB 7200MHz DDR5 (24GBx2) White F5-7200J3646F24GX2-TZ5RS - 7.450.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 64GB 6000MHz DDR5 (2x32GB) CMP64GX5M2B6000C30W">Ram PC Corsair Dominator Titanium White 64GB 6000MHz DDR5 (2x32GB) CMP64GX5M2B6000C30W - 7.990.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 64GB 6000MHz DDR5 (2x32GB) CMP64GX5M2B6000C30">Ram PC Corsair Dominator Titanium 64GB 6000MHz DDR5 (2x32GB) CMP64GX5M2B6000C30 - 7.990.000 ₫</option>
+<option value="Ram PC Corsair Vengeance RGB 96GB 5600MHz DDR5 (2x48GB) CMH96GX5M2B5600C40">Ram PC Corsair Vengeance RGB 96GB 5600MHz DDR5 (2x48GB) CMH96GX5M2B5600C40 - 8.150.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 64GB 6600MHz DDR5 (2x32GB) CMP64GX5M2X6600C32W">Ram PC Corsair Dominator Titanium White 64GB 6600MHz DDR5 (2x32GB) CMP64GX5M2X6600C32W - 8.350.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 64GB 6600MHz DDR5 (2x32GB) CMP64GX5M2X6600C32">Ram PC Corsair Dominator Titanium 64GB 6600MHz DDR5 (2x32GB) CMP64GX5M2X6600C32 - 8.350.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium White 96GB 6600MHz DDR5 (2x48GB) CMP96GX5M2B6600C32W">Ram PC Corsair Dominator Titanium White 96GB 6600MHz DDR5 (2x48GB) CMP96GX5M2B6600C32W - 12.500.000 ₫</option>
+<option value="Ram PC Corsair Dominator Titanium 96GB 6600MHz DDR5 (2x48GB) CMP96GX5M2B6600C32">Ram PC Corsair Dominator Titanium 96GB 6600MHz DDR5 (2x48GB) CMP96GX5M2B6600C32 - 12.500.000 ₫</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="cooling fan" style="margin-right: 10px;">chọn quạt tản nhiệt</label>
+                <select name="FAN" id="FAN"><option value="Tản nhiệt nước AIO Deepcool MYSTIQUE 240 WH ARGB R-LX240-WHDSNMCP-G-1">Tản nhiệt nước AIO Deepcool MYSTIQUE 240 WH ARGB R-LX240-WHDSNMCP-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool MYSTIQUE 240 ARGB R-LX550-BKADSNC-G-1">Tản nhiệt nước AIO Deepcool MYSTIQUE 240 ARGB R-LX550-BKADSNC-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool MYSTIQUE 360 WH ARGB R-LX360-WHDSNMCP-G-1">Tản nhiệt nước AIO Deepcool MYSTIQUE 360 WH ARGB R-LX360-WHDSNMCP-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool MYSTIQUE 360 ARGB R-LX750-BKADSNC-G-1">Tản nhiệt nước AIO Deepcool MYSTIQUE 360 ARGB R-LX750-BKADSNC-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool LP240 R-LP240-BKMSNC-G-1">Tản nhiệt nước AIO Deepcool LP240 R-LP240-BKMSNC-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool LP360 R-LP360-BKMSNC-G-1">Tản nhiệt nước AIO Deepcool LP360 R-LP360-BKMSNC-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool LQ240 R-LQ240-BKLSMW-G-1">Tản nhiệt nước AIO Deepcool LQ240 R-LQ240-BKLSMW-G-1 - Liên hệ</option>
+<option value="Tản nhiệt nước AIO Deepcool LQ360 R-LQ360-BKLSMW-G-1">Tản nhiệt nước AIO Deepcool LQ360 R-LQ360-BKLSMW-G-1 - Liên hệ</option>
+<option value="Fan Case XIGMATEK INFINITY RGB Reverse Fixed 120mm">Fan Case XIGMATEK INFINITY RGB Reverse Fixed 120mm - 99.000 ₫</option>
+<option value="Fan Case XIGMATEK INFINITY RGB Fixed 120mm">Fan Case XIGMATEK INFINITY RGB Fixed 120mm - 99.000 ₫</option>
+<option value="Fan Case Montech RX 120 PWM 120mm">Fan Case Montech RX 120 PWM 120mm - 199.000 ₫</option>
+<option value="Fan Case Montech AX 120 PWM 120mm">Fan Case Montech AX 120 PWM 120mm - 199.000 ₫</option>
+<option value="Fan Case Montech AX 140 PWM 140mm">Fan Case Montech AX 140 PWM 140mm - 299.000 ₫</option>
+<option value="Fan Case Montech RX 140 PWM 140mm">Fan Case Montech RX 140 PWM 140mm - 330.000 ₫</option>
+<option value="Fan Case Gamdias AEOLUS P2-1201 ARGB PWM 120mm Black CCAEOLP21201BLGA">Fan Case Gamdias AEOLUS P2-1201 ARGB PWM 120mm Black CCAEOLP21201BLGA - 350.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AG400 ARGB R-AG400-BKANMC-G-1">Tản nhiệt khí Deepcool AG400 ARGB R-AG400-BKANMC-G-1 - 350.000 ₫</option>
+<option value="Fan Case Gamdias AEOLUS P2-1201 ARGB PWM 120mm White CCAEOLP21201WHGA">Fan Case Gamdias AEOLUS P2-1201 ARGB PWM 120mm White CCAEOLP21201WHGA - 369.000 ₫</option>
+<option value="Fan Case Corsair RS120 ARGB 120mm PWM Black">Fan Case Corsair RS120 ARGB 120mm PWM Black - 419.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK400 R-AK400-BKNNMN-G-1">Tản nhiệt khí Deepcool AK400 R-AK400-BKNNMN-G-1 - 550.000 ₫</option>
+<option value="Tản nhiệt khí Gamdias BOREAS E2-410 White CCBORE410WHGA">Tản nhiệt khí Gamdias BOREAS E2-410 White CCBORE410WHGA - 590.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK400 WH R-AK400-WHNNMN-G-1">Tản nhiệt khí Deepcool AK400 WH R-AK400-WHNNMN-G-1 - 630.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK400 Zero Dark R-AK400-BKNNMN-G-2">Tản nhiệt khí Deepcool AK400 Zero Dark R-AK400-BKNNMN-G-2 - 660.000 ₫</option>
+<option value="Bộ ba Fan Case Deepcool FK120-3 in 1 R-FK120-BKNPF3-G-1">Bộ ba Fan Case Deepcool FK120-3 in 1 R-FK120-BKNPF3-G-1 - 690.000 ₫</option>
+<option value="Bộ ba Fan Case Deepcool FC120-3 in 1 RGB White R-FC120-WHAMN3-G-1">Bộ ba Fan Case Deepcool FC120-3 in 1 RGB White R-FC120-WHAMN3-G-1 - 749.000 ₫</option>
+<option value="Bộ ba Fan Case Deepcool FC120-3 in 1 RGB R-FC120-BKAMN3-G-1">Bộ ba Fan Case Deepcool FC120-3 in 1 RGB R-FC120-BKAMN3-G-1 - 749.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AG620 ARGB R-AG620-BKANMN-G-1">Tản nhiệt khí Deepcool AG620 ARGB R-AG620-BKANMN-G-1 - 790.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK400 DIGITAL WH R-AK400-WHADMN-G">Tản nhiệt khí Deepcool AK400 DIGITAL WH R-AK400-WHADMN-G - 790.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK400 DIGITAL R-AK400-BKADMN-G">Tản nhiệt khí Deepcool AK400 DIGITAL R-AK400-BKADMN-G - 790.000 ₫</option>
+<option value="Bộ ba Fan Case Gamdias AEOLUS P2-1203 ARGB PWM 120mm White CCAEOLP21203WHGA">Bộ ba Fan Case Gamdias AEOLUS P2-1203 ARGB PWM 120mm White CCAEOLP21203WHGA - 890.000 ₫</option>
+<option value="Bộ ba Fan Case Gamdias AEOLUS P2-1203 ARGB PWM 120mm Black CCAEOLP21203BLGA">Bộ ba Fan Case Gamdias AEOLUS P2-1203 ARGB PWM 120mm Black CCAEOLP21203BLGA - 890.000 ₫</option>
+<option value="Tản nhiệt nước AIO Gamdias AURA GL240 v2 ARGB WHITE WCAURAGL240V2WHGA">Tản nhiệt nước AIO Gamdias AURA GL240 v2 ARGB WHITE WCAURAGL240V2WHGA - 1.050.000 ₫</option>
+<option value="Tản nhiệt nước AIO Gamdias AURA GL240 v2 ARGB BLACK WCAURAGL240V2BLGA">Tản nhiệt nước AIO Gamdias AURA GL240 v2 ARGB BLACK WCAURAGL240V2BLGA - 1.050.000 ₫</option>
+<option value="Tản nhiệt nước AIO Gamdias AURA GL360 v2 ARGB BLACK WAAURAGL360V2BLGA">Tản nhiệt nước AIO Gamdias AURA GL360 v2 ARGB BLACK WAAURAGL360V2BLGA - 1.350.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK620 WH R-AK620-WHNNMT-G-1">Tản nhiệt khí Deepcool AK620 WH R-AK620-WHNNMT-G-1 - 1.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LE520 A-RGB R-LE520-BKAMMN-G-1">Tản nhiệt nước AIO Deepcool LE520 A-RGB R-LE520-BKAMMN-G-1 - 1.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO Gamdias AURA GL360 v2 ARGB WHITE WAAURAGL360V2WHGA">Tản nhiệt nước AIO Gamdias AURA GL360 v2 ARGB WHITE WAAURAGL360V2WHGA - 1.400.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LE520 WH A-RGB R-LE520-WHAMMN-G-1">Tản nhiệt nước AIO Deepcool LE520 WH A-RGB R-LE520-WHAMMN-G-1 - 1.490.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK620 Zero Dark R-AK620-BKNNMT-G-1">Tản nhiệt khí Deepcool AK620 Zero Dark R-AK620-BKNNMT-G-1 - 1.550.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK620 DIGITAL R-AK620-BKADMN-G">Tản nhiệt khí Deepcool AK620 DIGITAL R-AK620-BKADMN-G - 1.590.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK620 DIGITAL WH R-AK620-WHADMN-G">Tản nhiệt khí Deepcool AK620 DIGITAL WH R-AK620-WHADMN-G - 1.750.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool AK620 DIGITAL PRO R-AK620-BKAPMN-G">Tản nhiệt khí Deepcool AK620 DIGITAL PRO R-AK620-BKAPMN-G - 1.890.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair NAUTILUS 240 ARGB White CW-9060094-WW">Tản nhiệt nước AIO Corsair NAUTILUS 240 ARGB White CW-9060094-WW - 1.990.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LE720 A-RGB R-LE720-BKAMMN-G-1">Tản nhiệt nước AIO Deepcool LE720 A-RGB R-LE720-BKAMMN-G-1 - 1.990.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LT520 WH A-RGB R-LT520-WHAMNF-G-1">Tản nhiệt nước AIO Deepcool LT520 WH A-RGB R-LT520-WHAMNF-G-1 - 2.090.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LT520 A-RGB R-LT520-BKAMNF-G-1">Tản nhiệt nước AIO Deepcool LT520 A-RGB R-LT520-BKAMNF-G-1 - 2.190.000 ₫</option>
+<option value="Tản nhiệt nước AIO MSI MAG CORELIQUID M360 MAG-CORELIQUID-M360">Tản nhiệt nước AIO MSI MAG CORELIQUID M360 MAG-CORELIQUID-M360 - 2.350.000 ₫</option>
+<option value="Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 240 EN45227">Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 240 EN45227 - 2.390.000 ₫</option>
+<option value="Bộ hai Fan Case Corsair iCUE LINK LX140 RGB 140mm PWM White CO-9051032-WW">Bộ hai Fan Case Corsair iCUE LINK LX140 RGB 140mm PWM White CO-9051032-WW - 2.390.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool ASSASSIN IV R-ASN4-BKNNMT-G">Tản nhiệt khí Deepcool ASSASSIN IV R-ASN4-BKNNMT-G - 2.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 240 ARCTIC EN45264">Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 240 ARCTIC EN45264 - 2.490.000 ₫</option>
+<option value="Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 360 EN45233">Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 360 EN45233 - 2.490.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool ASSASSIN IV WH R-ASN4-WHNNMT-G">Tản nhiệt khí Deepcool ASSASSIN IV WH R-ASN4-WHNNMT-G - 2.490.000 ₫</option>
+<option value="Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 360 ARCTIC EN45240">Tản nhiệt nước AIO XIGMATEK ALPHA CONNECT 360 ARCTIC EN45240 - 2.590.000 ₫</option>
+<option value="Tản nhiệt nước AIO MSI MAG CORELIQUID E240 MAG-CORELIQUID-E240">Tản nhiệt nước AIO MSI MAG CORELIQUID E240 MAG-CORELIQUID-E240 - 2.590.000 ₫</option>
+<option value="Tản nhiệt nước AIO MSI MAG CORELIQUID E240 WHITE MAG-CORELIQUID-E240-WHITE">Tản nhiệt nước AIO MSI MAG CORELIQUID E240 WHITE MAG-CORELIQUID-E240-WHITE - 2.650.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LT360 ARGB R-LT360-BKAMNC-G-1">Tản nhiệt nước AIO Deepcool LT360 ARGB R-LT360-BKAMNC-G-1 - 2.690.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LT720 A-RGB R-LT720-BKAMNF-G-1">Tản nhiệt nước AIO Deepcool LT720 A-RGB R-LT720-BKAMNF-G-1 - 2.690.000 ₫</option>
+<option value="Tản nhiệt khí Deepcool ASSASSIN IV VC VISION R-ASN4-BKNVMD-G">Tản nhiệt khí Deepcool ASSASSIN IV VC VISION R-ASN4-BKNVMD-G - 2.790.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool Mystique 240 R-LX550-BKDSNC-G-1">Tản nhiệt nước AIO Deepcool Mystique 240 R-LX550-BKDSNC-G-1 - 2.790.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LT720 WH A-RGB R-LT720-WHAMNF-G-1">Tản nhiệt nước AIO Deepcool LT720 WH A-RGB R-LT720-WHAMNF-G-1 - 2.790.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LT360 WH ARGB R-LT360-WHAMNC-G-1">Tản nhiệt nước AIO Deepcool LT360 WH ARGB R-LT360-WHAMNC-G-1 - 2.890.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LD360 White R-LD360-WHDMMN-G-1">Tản nhiệt nước AIO Deepcool LD360 White R-LD360-WHDMMN-G-1 - 2.990.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool LD360 Black R-LD360-BKMSN-G-1">Tản nhiệt nước AIO Deepcool LD360 Black R-LD360-BKMSN-G-1 - 2.990.000 ₫</option>
+<option value="Bộ ba Fan Case Corsair iCUE LINK QX120 RGB 120mm White CO-9051006-WW">Bộ ba Fan Case Corsair iCUE LINK QX120 RGB 120mm White CO-9051006-WW - 3.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO MSI MAG CORELIQUID I360 MAG-CORELIQUID-I360">Tản nhiệt nước AIO MSI MAG CORELIQUID I360 MAG-CORELIQUID-I360 - 3.590.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool Mystique 360 R-LX750-BKDSNMP-G-1">Tản nhiệt nước AIO Deepcool Mystique 360 R-LX750-BKDSNMP-G-1 - 3.590.000 ₫</option>
+<option value="Tản nhiệt nước AIO Deepcool Mystique 360 WH R-LX360-WHDSNMP-G-1">Tản nhiệt nước AIO Deepcool Mystique 360 WH R-LX360-WHDSNMP-G-1 - 3.690.000 ₫</option>
+<option value="Tản nhiệt nước AIO MSI MAG CORELIQUID I360 WHITE MAG-CORELIQUID-I360 WHITE">Tản nhiệt nước AIO MSI MAG CORELIQUID I360 WHITE MAG-CORELIQUID-I360 WHITE - 3.990.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK H100i RGB CW-9061001-WW">Tản nhiệt nước AIO Corsair iCUE LINK H100i RGB CW-9061001-WW - 4.190.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB White CW-9061020-WW">Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB White CW-9061020-WW - 4.250.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB Black CW-9061016-WW">Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB Black CW-9061016-WW - 4.250.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK TITAN 360 RX RGB White CW-9061021-WW">Tản nhiệt nước AIO Corsair iCUE LINK TITAN 360 RX RGB White CW-9061021-WW - 4.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK H100i RGB White CW-9061005-WW">Tản nhiệt nước AIO Corsair iCUE LINK H100i RGB White CW-9061005-WW - 4.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB LCD White CW-9061025-WW">Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB LCD White CW-9061025-WW - 4.590.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB LCD Black CW-9061022-WW">Tản nhiệt nước AIO Corsair iCUE LINK TITAN 240 RX RGB LCD Black CW-9061022-WW - 4.590.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK TITAN 360 RX RGB Black CW-9061018-WW">Tản nhiệt nước AIO Corsair iCUE LINK TITAN 360 RX RGB Black CW-9061018-WW - 4.690.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK H150i RGB White CW-9061006-WW">Tản nhiệt nước AIO Corsair iCUE LINK H150i RGB White CW-9061006-WW - 5.390.000 ₫</option>
+<option value="Tản nhiệt nước AIO Corsair iCUE LINK H150i LCD CW-9061008-WW">Tản nhiệt nước AIO Corsair iCUE LINK H150i LCD CW-9061008-WW - 6.690.000 ₫</option>
+<option value="Tản nhiệt nước AIO MSI MEG CORELIQUID S360 MEG-CORELIQUID-S360">Tản nhiệt nước AIO MSI MEG CORELIQUID S360 MEG-CORELIQUID-S360 - 7.990.000 ₫</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="PSU" style="margin-right: 10px;">chọn Nguồn/PSU</label>
+                <select name="PSU" id="PSU"><option value="Nguồn máy tính Deepcool PF450 450W 80 Plus R-PF450D-HA0B-EU">Nguồn máy tính Deepcool PF450 450W 80 Plus R-PF450D-HA0B-EU - 790.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A500N-H 500W MAG-A500N-H">Nguồn máy tính MSI MAG A500N-H 500W MAG-A500N-H - 890.000 ₫</option>
+<option value="Nguồn máy tính Deepcool PF550 550W 80 Plus R-PF550D-HA0B-EU">Nguồn máy tính Deepcool PF550 550W 80 Plus R-PF550D-HA0B-EU - 890.000 ₫</option>
+<option value="Nguồn máy tính Gigabyte P550SS 550W 80 Plus Silver GP-P550SS">Nguồn máy tính Gigabyte P550SS 550W 80 Plus Silver GP-P550SS - 1.050.000 ₫</option>
+<option value="Nguồn máy tính Corsair CX550 550W 80 Plus Bronze CP-9020277-NA">Nguồn máy tính Corsair CX550 550W 80 Plus Bronze CP-9020277-NA - 1.100.000 ₫</option>
+<option value="Nguồn máy tính Gigabyte P650SS ICE 650W 80 Plus Silver GP-P650SS-ICE">Nguồn máy tính Gigabyte P650SS ICE 650W 80 Plus Silver GP-P650SS-ICE - 1.190.000 ₫</option>
+<option value="Nguồn máy tính Deepcool PK650D 650W 80 Plus Bronze R-PK650D-FA0B-EU">Nguồn máy tính Deepcool PK650D 650W 80 Plus Bronze R-PK650D-FA0B-EU - 1.190.000 ₫</option>
+<option value="Nguồn máy tính Gigabyte P650SS 650W 80 Plus Silver GP-P650SS">Nguồn máy tính Gigabyte P650SS 650W 80 Plus Silver GP-P650SS - 1.250.000 ₫</option>
+<option value="Nguồn máy tính Corsair CX650 650W 80 Plus Bronze CP-9020278-NA">Nguồn máy tính Corsair CX650 650W 80 Plus Bronze CP-9020278-NA - 1.250.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A650BN 650W 80 Plus Bronze MAG-A650BN">Nguồn máy tính MSI MAG A650BN 650W 80 Plus Bronze MAG-A650BN - 1.290.000 ₫</option>
+<option value="Nguồn máy tính Deepcool PL750D PCIE5 750W 80 Plus Bronze R-PL750D-FC0B-EU">Nguồn máy tính Deepcool PL750D PCIE5 750W 80 Plus Bronze R-PL750D-FC0B-EU - 1.450.000 ₫</option>
+<option value="Nguồn máy tính Corsair CX750 750W 80 Plus Bronze CP-9020279-NA">Nguồn máy tính Corsair CX750 750W 80 Plus Bronze CP-9020279-NA - 1.450.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A750BN PCIE5 750W 80 Plus Bronze MAG-A750BN-PCIE5">Nguồn máy tính MSI MAG A750BN PCIE5 750W 80 Plus Bronze MAG-A750BN-PCIE5 - 1.450.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A750GL PCIE5 750W 80 Plus Gold MAG-A750GL-PCIE5">Nguồn máy tính MSI MAG A750GL PCIE5 750W 80 Plus Gold MAG-A750GL-PCIE5 - 2.290.000 ₫</option>
+<option value="Nguồn máy tính Deepcool PN850M PCIE5 850W 80 Plus Gold R-PN850M-FC0B-EU">Nguồn máy tính Deepcool PN850M PCIE5 850W 80 Plus Gold R-PN850M-FC0B-EU - 2.590.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex III 850W ATX 3.1 80 Plus Gold SF-850F14GE-GL">Nguồn máy tính SuperFlower Leadex III 850W ATX 3.1 80 Plus Gold SF-850F14GE-GL - 2.650.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A850GL PCIE5 850W 80 Plus Gold MAG-A850GL-PCIE5">Nguồn máy tính MSI MAG A850GL PCIE5 850W 80 Plus Gold MAG-A850GL-PCIE5 - 2.690.000 ₫</option>
+<option value="Nguồn máy tính Corsair RM850e PCIE5 850W 80 Plus Gold CP-9020263-NA">Nguồn máy tính Corsair RM850e PCIE5 850W 80 Plus Gold CP-9020263-NA - 2.690.000 ₫</option>
+<option value="Nguồn máy tính FSP Dagger Pro 650 80Plus Gold SFX Full Modular">Nguồn máy tính FSP Dagger Pro 650 80Plus Gold SFX Full Modular - 2.790.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A850GL PCIE5 WHITE 850W 80 Plus Gold MAG-A850GL-PCIE5-WHITE">Nguồn máy tính MSI MAG A850GL PCIE5 WHITE 850W 80 Plus Gold MAG-A850GL-PCIE5-WHITE - 2.790.000 ₫</option>
+<option value="Nguồn máy tính Corsair RM750e PCIE5 750W 80 Plus Gold CP-9020262-NA">Nguồn máy tính Corsair RM750e PCIE5 750W 80 Plus Gold CP-9020262-NA - 2.790.000 ₫</option>
+<option value="Nguồn máy tính Deepcool PX1000G 1000W 80 Plus Gold R-PXA00G-FC0B-EU">Nguồn máy tính Deepcool PX1000G 1000W 80 Plus Gold R-PXA00G-FC0B-EU - 3.190.000 ₫</option>
+<option value="Nguồn máy tính Corsair RM850x Shift White 850W 80 Plus Gold CP-9020274-NA">Nguồn máy tính Corsair RM850x Shift White 850W 80 Plus Gold CP-9020274-NA - 3.290.000 ₫</option>
+<option value="Nguồn máy tính FSP Vita GM 1000W GEN 5.1 ATX3.1 Black 80 Plus Gold">Nguồn máy tính FSP Vita GM 1000W GEN 5.1 ATX3.1 Black 80 Plus Gold - 3.750.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex VI PRO 850W PCIE5.1 80 Plus Platinum SF-850F14PE">Nguồn máy tính SuperFlower Leadex VI PRO 850W PCIE5.1 80 Plus Platinum SF-850F14PE - 3.890.000 ₫</option>
+<option value="Nguồn máy tính Corsair SF750 PCIE5 750W 80 Plus Platinum CP-9020284-NA">Nguồn máy tính Corsair SF750 PCIE5 750W 80 Plus Platinum CP-9020284-NA - 3.990.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A1000GL PCIE5 1000W 80 Plus Gold MAG-A1000GL-PCIE5">Nguồn máy tính MSI MAG A1000GL PCIE5 1000W 80 Plus Gold MAG-A1000GL-PCIE5 - 3.990.000 ₫</option>
+<option value="Nguồn máy tính Corsair RM1000e PCIE5 1000W 80 Plus Gold CP-9020264-NA">Nguồn máy tính Corsair RM1000e PCIE5 1000W 80 Plus Gold CP-9020264-NA - 3.990.000 ₫</option>
+<option value="Nguồn máy tính Corsair RM1000x Shift White 1000W 80 Plus Gold CP-9020275-NA">Nguồn máy tính Corsair RM1000x Shift White 1000W 80 Plus Gold CP-9020275-NA - 4.190.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex VII XG 1000W ATX3.1 80 Plus Gold SF-1000F14XG">Nguồn máy tính SuperFlower Leadex VII XG 1000W ATX3.1 80 Plus Gold SF-1000F14XG - 4.250.000 ₫</option>
+<option value="Nguồn máy tính Corsair SF1000L 1000W 80 Plus Gold CP-9020246-NA">Nguồn máy tính Corsair SF1000L 1000W 80 Plus Gold CP-9020246-NA - 4.490.000 ₫</option>
+<option value="Nguồn máy tính Corsair SF850 PCIE5 850W 80 Plus Platinum CP-9020256-NA">Nguồn máy tính Corsair SF850 PCIE5 850W 80 Plus Platinum CP-9020256-NA - 4.590.000 ₫</option>
+<option value="Nguồn máy tính Corsair RM1200x Shift White 1200W 80 Plus Gold CP-9020276-NA">Nguồn máy tính Corsair RM1200x Shift White 1200W 80 Plus Gold CP-9020276-NA - 4.790.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex VII PRO 1000W ATX3.1 80 Plus Platinum SF-1000F14XP">Nguồn máy tính SuperFlower Leadex VII PRO 1000W ATX3.1 80 Plus Platinum SF-1000F14XP - 4.890.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex VII XG 1300W ATX3.1 80 Plus Gold SF-1300F14XG">Nguồn máy tính SuperFlower Leadex VII XG 1300W ATX3.1 80 Plus Gold SF-1300F14XG - 4.950.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex VII PRO 1000W ATX3.1 White 80 Plus Platinum SF-1000F14XP-WH">Nguồn máy tính SuperFlower Leadex VII PRO 1000W ATX3.1 White 80 Plus Platinum SF-1000F14XP-WH - 4.990.000 ₫</option>
+<option value="Nguồn máy tính Gigabyte AORUS ELITE P850W ICE PCIE5 850W 80 Plus Platinum GP-AE850PM-PG5-ICE">Nguồn máy tính Gigabyte AORUS ELITE P850W ICE PCIE5 850W 80 Plus Platinum GP-AE850PM-PG5-ICE - 4.990.000 ₫</option>
+<option value="Nguồn máy tính Gigabyte AORUS ELITE P850W PCIE5 850W 80 Plus Platinum GP-AE850PM-PG5">Nguồn máy tính Gigabyte AORUS ELITE P850W PCIE5 850W 80 Plus Platinum GP-AE850PM-PG5 - 4.990.000 ₫</option>
+<option value="Nguồn máy tính MSI MAG A1250GL PCIE5 1250W 80 Plus Gold MAG-A1250GL-PCIE5">Nguồn máy tính MSI MAG A1250GL PCIE5 1250W 80 Plus Gold MAG-A1250GL-PCIE5 - 5.450.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex VII PRO 1200W ATX3.1 80 Plus Platinum SF-1200F14XP">Nguồn máy tính SuperFlower Leadex VII PRO 1200W ATX3.1 80 Plus Platinum SF-1200F14XP - 5.490.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex Platinum 1200W SE 80 Plus Platinum SF-1200F14MP">Nguồn máy tính SuperFlower Leadex Platinum 1200W SE 80 Plus Platinum SF-1200F14MP - 5.490.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex 1000W 80 Plus Titanium SF-1000F14HT">Nguồn máy tính SuperFlower Leadex 1000W 80 Plus Titanium SF-1000F14HT - 6.990.000 ₫</option>
+<option value="Nguồn máy tính Corsair HX1200i 1200W 80 Plus Platinum CP-9020281-NA">Nguồn máy tính Corsair HX1200i 1200W 80 Plus Platinum CP-9020281-NA - 7.490.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex Platinum 1600W 80 Plus Platinum SF-1600F14HP">Nguồn máy tính SuperFlower Leadex Platinum 1600W 80 Plus Platinum SF-1600F14HP - 8.190.000 ₫</option>
+<option value="Nguồn máy tính Corsair HX1500i 2023 1500W 80 Plus Platinum CP-9020261-NA">Nguồn máy tính Corsair HX1500i 2023 1500W 80 Plus Platinum CP-9020261-NA - 9.450.000 ₫</option>
+<option value="Nguồn máy tính SuperFlower Leadex Platinum 2000W 80 Plus Platinum SF-2000F14HP">Nguồn máy tính SuperFlower Leadex Platinum 2000W 80 Plus Platinum SF-2000F14HP - 10.990.000 ₫</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="SSD" style="margin-right: 10px;">chọn ổ lưu trữ</label>
+                <select name="SSD" id="SSD"><option value="SSD HP S650 120GB 2.5-Inch SATA III 345M7AA">SSD HP S650 120GB 2.5-Inch SATA III 345M7AA - 265.000 ₫</option>
+<option value="SSD Lexar 128GB NS100 2.5-Inch SATA III LNS100-128RB">SSD Lexar 128GB NS100 2.5-Inch SATA III LNS100-128RB - 315.000 ₫</option>
+<option value="SSD MSI SPATIUM S270 240GB 2.5-Inch SATA III SPATIUM-S270-240GB">SSD MSI SPATIUM S270 240GB 2.5-Inch SATA III SPATIUM-S270-240GB - 390.000 ₫</option>
+<option value="SSD Lexar NS100 256GB 2.5-Inch SATA III LNS100-256RB">SSD Lexar NS100 256GB 2.5-Inch SATA III LNS100-256RB - 430.000 ₫</option>
+<option value="SSD Western Digital Green 240GB 2.5-Inch SATA III WDS240G3G0A">SSD Western Digital Green 240GB 2.5-Inch SATA III WDS240G3G0A - 430.000 ₫</option>
+<option value="SSD HP S650 240GB 2.5-Inch SATA III 345M8AA">SSD HP S650 240GB 2.5-Inch SATA III 345M8AA - 450.000 ₫</option>
+<option value="SSD Crucial 240GB BX500 3D NAND 2.5-Inch SATA III CT240BX500SSD1">SSD Crucial 240GB BX500 3D NAND 2.5-Inch SATA III CT240BX500SSD1 - 450.000 ₫</option>
+<option value="SSD Western Digital Green 240GB M.2 2280 Sata III WDS240G3G0B">SSD Western Digital Green 240GB M.2 2280 Sata III WDS240G3G0B - 450.000 ₫</option>
+<option value="SSD PNY CS1031 M.2 PCIe Gen3 x4 NVMe 256GB M280CS1031-256-CL">SSD PNY CS1031 M.2 PCIe Gen3 x4 NVMe 256GB M280CS1031-256-CL - 490.000 ₫</option>
+<option value="SSD Lexar NM620 256GB M.2 PCIe Gen3 x4 LNM620X256G-RNNNG">SSD Lexar NM620 256GB M.2 PCIe Gen3 x4 LNM620X256G-RNNNG - 550.000 ₫</option>
+<option value="SSD Crucial BX500 500GB 3D NAND 2.5-Inch SATA III CT500BX500SSD1">SSD Crucial BX500 500GB 3D NAND 2.5-Inch SATA III CT500BX500SSD1 - 750.000 ₫</option>
+<option value="SSD Western Digital Green 480GB 2.5-Inch SATA III WDS480G3G0A">SSD Western Digital Green 480GB 2.5-Inch SATA III WDS480G3G0A - 750.000 ₫</option>
+<option value="SSD Western Digital Green 480GB M.2 2280 Sata III WDS480G3G0B">SSD Western Digital Green 480GB M.2 2280 Sata III WDS480G3G0B - 770.000 ₫</option>
+<option value="SSD Lexar NS100 512GB 2.5-Inch SATA III LNS100-512RB">SSD Lexar NS100 512GB 2.5-Inch SATA III LNS100-512RB - 840.000 ₫</option>
+<option value="SSD Crucial P3 500GB NVMe 3D-NAND M.2 PCIe Gen3 x4 CT500P3SSD8">SSD Crucial P3 500GB NVMe 3D-NAND M.2 PCIe Gen3 x4 CT500P3SSD8 - 880.000 ₫</option>
+<option value="SSD Lexar NM620 512GB M.2 PCIe Gen3 x4 LNM620X512G-RNNNG">SSD Lexar NM620 512GB M.2 PCIe Gen3 x4 LNM620X512G-RNNNG - 930.000 ₫</option>
+<option value="SSD MSI SPATIUM M450 500GB M.2 2280 PCIe Gen4 x4 NVMe SPATIUM-M450-500GB">SSD MSI SPATIUM M450 500GB M.2 2280 PCIe Gen4 x4 NVMe SPATIUM-M450-500GB - 930.000 ₫</option>
+<option value="SSD Western Digital Blue SN580 500GB PCIe Gen4 x4 NVMe M.2 WDS500G3B0E">SSD Western Digital Blue SN580 500GB PCIe Gen4 x4 NVMe M.2 WDS500G3B0E - 950.000 ₫</option>
+<option value="SSD Kingston NV3 500GB M.2 PCIe Gen4 x4 NVMe SNV3S/500G">SSD Kingston NV3 500GB M.2 PCIe Gen4 x4 NVMe SNV3S/500G - 970.000 ₫</option>
+<option value="SSD Western Digital Blue SA510 500GB 3D-NAND 2.5-Inch SATA III WDS500G3B0A">SSD Western Digital Blue SA510 500GB 3D-NAND 2.5-Inch SATA III WDS500G3B0A - 990.000 ₫</option>
+<option value="SSD HP FX900 Plus 512GB M.2 PCIe 4.0 x4 NVMe 7F616AA">SSD HP FX900 Plus 512GB M.2 PCIe 4.0 x4 NVMe 7F616AA - 1.090.000 ₫</option>
+<option value="SSD MSI SPATIUM M450 V1 1TB M.2 2280 PCIe Gen4 x4 NVMe SPATIUM-M450-1TB-V1">SSD MSI SPATIUM M450 V1 1TB M.2 2280 PCIe Gen4 x4 NVMe SPATIUM-M450-1TB-V1 - 1.350.000 ₫</option>
+<option value="SSD Acer MA200 512GB M.2 2230 PCIe Gen4 x4 NVMe MA200-512GB">SSD Acer MA200 512GB M.2 2230 PCIe Gen4 x4 NVMe MA200-512GB - 1.350.000 ₫</option>
+<option value="SSD HP S750 1TB 2.5-Inch SATA III 16L54AA">SSD HP S750 1TB 2.5-Inch SATA III 16L54AA - 1.390.000 ₫</option>
+<option value="SSD Western Digital Green 1TB 2.5-Inch SATA III WDS100T3G0A">SSD Western Digital Green 1TB 2.5-Inch SATA III WDS100T3G0A - 1.390.000 ₫</option>
+<option value="SSD Lexar NM620 1TB M.2 PCIe Gen3 x4 LNM620X001T-RNNNG">SSD Lexar NM620 1TB M.2 PCIe Gen3 x4 LNM620X001T-RNNNG - 1.390.000 ₫</option>
+<option value="SSD Kingston KC3000 512GB M.2 PCIe Gen4 x4 NVMe SKC3000S/512G">SSD Kingston KC3000 512GB M.2 PCIe Gen4 x4 NVMe SKC3000S/512G - 1.390.000 ₫</option>
+<option value="SSD Samsung 980 500GB PCIe NVMe V-NAND M.2 2280 MZ-V8V500BW">SSD Samsung 980 500GB PCIe NVMe V-NAND M.2 2280 MZ-V8V500BW - 1.390.000 ₫</option>
+<option value="SSD Crucial BX500 1TB 3D NAND 2.5-Inch SATA III CT1000BX500SSD1">SSD Crucial BX500 1TB 3D NAND 2.5-Inch SATA III CT1000BX500SSD1 - 1.450.000 ₫</option>
+<option value="SSD Western Digital Blue SN580 1TB PCIe Gen4 x4 NVMe M.2 WDS100T3B0E">SSD Western Digital Blue SN580 1TB PCIe Gen4 x4 NVMe M.2 WDS100T3B0E - 1.490.000 ₫</option>
+<option value="SSD Crucial P3 Plus 1TB NVMe 3D-NAND M.2 PCIe Gen4 x4 CT1000P3PSSD8">SSD Crucial P3 Plus 1TB NVMe 3D-NAND M.2 PCIe Gen4 x4 CT1000P3PSSD8 - 1.490.000 ₫</option>
+<option value="SSD Kingston NV3 1TB M.2 PCIe Gen4 x4 NVMe SNV3S/1000G">SSD Kingston NV3 1TB M.2 PCIe Gen4 x4 NVMe SNV3S/1000G - 1.530.000 ₫</option>
+<option value="SSD Western Digital Blue SA510 1TB 3D-NAND 2.5-Inch SATA III WDS100T3B0A">SSD Western Digital Blue SA510 1TB 3D-NAND 2.5-Inch SATA III WDS100T3B0A - 1.750.000 ₫</option>
+<option value="SSD Western Digital Blue SN550 PCIe Gen3 x4 NVMe M.2 500GB WDS500G2B0C">SSD Western Digital Blue SN550 PCIe Gen3 x4 NVMe M.2 500GB WDS500G2B0C - 1.750.000 ₫</option>
+<option value="SSD Acer Predator GM7000 1TB PCIe Gen4 x4 NVMe M.2 GM7000-1TB">SSD Acer Predator GM7000 1TB PCIe Gen4 x4 NVMe M.2 GM7000-1TB - 1.950.000 ₫</option>
+<option value="SSD Western Digital Blue SN5000 1TB PCIe Gen4 x4 NVMe M.2 WDS100T4B0E">SSD Western Digital Blue SN5000 1TB PCIe Gen4 x4 NVMe M.2 WDS100T4B0E - 1.990.000 ₫</option>
+<option value="SSD Acer MA200 1TB M.2 2230 PCIe Gen4 x4 NVMe MA200-1TB">SSD Acer MA200 1TB M.2 2230 PCIe Gen4 x4 NVMe MA200-1TB - 2.150.000 ₫</option>
+<option value="SSD MSI SPATIUM M480 Pro 1TB M.2 2280 PCIe Gen4 x4 NVMe SPATIUM-M480P-1TB">SSD MSI SPATIUM M480 Pro 1TB M.2 2280 PCIe Gen4 x4 NVMe SPATIUM-M480P-1TB - 2.150.000 ₫</option>
+<option value="SSD Lexar NM790 1TB M.2 PCIe Gen4 x4 NVMe LNM790X001T-RNNNG">SSD Lexar NM790 1TB M.2 PCIe Gen4 x4 NVMe LNM790X001T-RNNNG - 2.150.000 ₫</option>
+<option value="SSD Kingston KC3000 1TB M.2 PCIe Gen4 x4 NVMe SKC3000S/1024G">SSD Kingston KC3000 1TB M.2 PCIe Gen4 x4 NVMe SKC3000S/1024G - 2.250.000 ₫</option>
+<option value="SSD Samsung 990 EVO Plus 1TB PCIe 4.0 x4 / PCIe 5.0 x2 NVMe V-NAND M.2 2280 MZ-V9S1T0BW">SSD Samsung 990 EVO Plus 1TB PCIe 4.0 x4 / PCIe 5.0 x2 NVMe V-NAND M.2 2280 MZ-V9S1T0BW - 2.290.000 ₫</option>
+<option value="SSD Samsung 870 Evo 1TB 2.5-Inch SATA III MZ-77E1T0BW">SSD Samsung 870 Evo 1TB 2.5-Inch SATA III MZ-77E1T0BW - 2.590.000 ₫</option>
+<option value="SSD HP S750 2TB 2.5-Inch SATA III 1R9T8AA">SSD HP S750 2TB 2.5-Inch SATA III 1R9T8AA - 2.690.000 ₫</option>
+<option value="SSD HP FX900 Plus 2TB M.2 PCIe 4.0 x4 NVMe 7F618AA">SSD HP FX900 Plus 2TB M.2 PCIe 4.0 x4 NVMe 7F618AA - 2.890.000 ₫</option>
+<option value="SSD Enterprise Samsung PM893 480GB 2.5-Inch SATA III MZ-7L348000">SSD Enterprise Samsung PM893 480GB 2.5-Inch SATA III MZ-7L348000 - 2.950.000 ₫</option>
+<option value="SSD Crucial 1TB P310 M.2 2230 PCIe Gen4 x4 NVMe CT1000P310SSD2">SSD Crucial 1TB P310 M.2 2230 PCIe Gen4 x4 NVMe CT1000P310SSD2 - 2.990.000 ₫</option>
+<option value="SSD Samsung 990 Pro 1TB PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 MZ-V9P1T0BW">SSD Samsung 990 Pro 1TB PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 MZ-V9P1T0BW - 3.150.000 ₫</option>
+<option value="SSD Kingston NV3 2TB M.2 PCIe Gen4 x4 NVMe SNV3S/2000G">SSD Kingston NV3 2TB M.2 PCIe Gen4 x4 NVMe SNV3S/2000G - 3.250.000 ₫</option>
+<option value="SSD Acer Predator GM7000 2TB PCIe Gen4 x4 NVMe M.2 GM7000-2TB">SSD Acer Predator GM7000 2TB PCIe Gen4 x4 NVMe M.2 GM7000-2TB - 3.690.000 ₫</option>
+<option value="SSD Kingston KC3000 2TB M.2 PCIe Gen4 x4 NVMe SKC3000D/2048G">SSD Kingston KC3000 2TB M.2 PCIe Gen4 x4 NVMe SKC3000D/2048G - 4.050.000 ₫</option>
+<option value="SSD Samsung 990 EVO Plus 2TB PCIe 4.0 x4 / PCIe 5.0 x2 NVMe V-NAND M.2 2280 MZ-V9S2T0BW">SSD Samsung 990 EVO Plus 2TB PCIe 4.0 x4 / PCIe 5.0 x2 NVMe V-NAND M.2 2280 MZ-V9S2T0BW - 4.150.000 ₫</option>
+<option value="SSD WD Black SN850X 2TB PCIe Gen4 x4 NVMe M.2 WDS200T2X0E">SSD WD Black SN850X 2TB PCIe Gen4 x4 NVMe M.2 WDS200T2X0E - 4.750.000 ₫</option>
+<option value="SSD Samsung 870 Evo 2TB 2.5-Inch SATA III MZ-77E2T0BW">SSD Samsung 870 Evo 2TB 2.5-Inch SATA III MZ-77E2T0BW - 4.900.000 ₫</option>
+<option value="SSD Enterprise Samsung PM893 960GB 2.5-Inch SATA III MZ-7L396000">SSD Enterprise Samsung PM893 960GB 2.5-Inch SATA III MZ-7L396000 - 4.950.000 ₫</option>
+<option value="SSD Samsung 990 Pro 2TB PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 MZ-V9P2T0BW">SSD Samsung 990 Pro 2TB PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 MZ-V9P2T0BW - 5.250.000 ₫</option>
+<option value="SSD Enterprise Samsung 960GB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL296000">SSD Enterprise Samsung 960GB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL296000 - 5.500.000 ₫</option>
+<option value="SSD Crucial 1TB T705 M.2 PCIe Gen5 x4 NVMe CT1000T705SSD3">SSD Crucial 1TB T705 M.2 PCIe Gen5 x4 NVMe CT1000T705SSD3 - 5.650.000 ₫</option>
+<option value="SSD Crucial 2TB P310 M.2 2230 PCIe Gen4 x4 NVMe CT2000P310SSD2">SSD Crucial 2TB P310 M.2 2230 PCIe Gen4 x4 NVMe CT2000P310SSD2 - 5.750.000 ₫</option>
+<option value="SSD Crucial 1TB T705 M.2 PCIe Gen5 x4 NVMe With Heatsink CT1000T705SSD5">SSD Crucial 1TB T705 M.2 PCIe Gen5 x4 NVMe With Heatsink CT1000T705SSD5 - 5.990.000 ₫</option>
+<option value="SSD Crucial P3 Plus 4TB NVMe 3D-NAND M.2 PCIe Gen4 x4 CT4000P3PSSD8">SSD Crucial P3 Plus 4TB NVMe 3D-NAND M.2 PCIe Gen4 x4 CT4000P3PSSD8 - 6.150.000 ₫</option>
+<option value="SSD HP FX900 Pro 4TB M.2 PCIe 4.0 x4 NVMe 4A3U2AA">SSD HP FX900 Pro 4TB M.2 PCIe 4.0 x4 NVMe 4A3U2AA - 7.350.000 ₫</option>
+<option value="SSD Acer Predator GM7000 4TB PCIe Gen4 x4 NVMe M.2 GM7000-4TB">SSD Acer Predator GM7000 4TB PCIe Gen4 x4 NVMe M.2 GM7000-4TB - 7.550.000 ₫</option>
+<option value="SSD Samsung 990 EVO Plus 4TB PCIe 4.0 x4 / PCIe 5.0 x2 NVMe V-NAND M.2 2280 MZ-V9S4T0BW">SSD Samsung 990 EVO Plus 4TB PCIe 4.0 x4 / PCIe 5.0 x2 NVMe V-NAND M.2 2280 MZ-V9S4T0BW - 8.450.000 ₫</option>
+<option value="SSD MSI SPATIUM M570 PRO FROZR 2TB M.2 2280 PCIe Gen5 x4 NVMe SPATIUM-M570PFROZR-2TB">SSD MSI SPATIUM M570 PRO FROZR 2TB M.2 2280 PCIe Gen5 x4 NVMe SPATIUM-M570PFROZR-2TB - 8.500.000 ₫</option>
+<option value="SSD Enterprise Samsung PM893 1.92TB 2.5-Inch SATA III MZ-7L31T900">SSD Enterprise Samsung PM893 1.92TB 2.5-Inch SATA III MZ-7L31T900 - 8.500.000 ₫</option>
+<option value="SSD Samsung 870 Evo 4TB 2.5-Inch SATA III MZ-77E4T0BW">SSD Samsung 870 Evo 4TB 2.5-Inch SATA III MZ-77E4T0BW - 8.900.000 ₫</option>
+<option value="SSD Samsung 990 Pro 4TB PCIe Gen 4.0 x4 NVMe With Heatsink MZ-V9P4T0CW">SSD Samsung 990 Pro 4TB PCIe Gen 4.0 x4 NVMe With Heatsink MZ-V9P4T0CW - 9.300.000 ₫</option>
+<option value="SSD Samsung 990 Pro 4TB PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 MZ-V9P4T0BW">SSD Samsung 990 Pro 4TB PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 MZ-V9P4T0BW - 9.300.000 ₫</option>
+<option value="SSD Crucial 2TB T705 M.2 PCIe Gen5 x4 NVMe CT2000T705SSD3">SSD Crucial 2TB T705 M.2 PCIe Gen5 x4 NVMe CT2000T705SSD3 - 9.500.000 ₫</option>
+<option value="SSD Kingston KC3000 4TB M.2 PCIe Gen4 x4 NVMe SKC3000D/4096G">SSD Kingston KC3000 4TB M.2 PCIe Gen4 x4 NVMe SKC3000D/4096G - 9.500.000 ₫</option>
+<option value="SSD Enterprise Samsung 1.92TB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL21T900">SSD Enterprise Samsung 1.92TB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL21T900 - 9.900.000 ₫</option>
+<option value="SSD Crucial T705 Limited Edition 2TB M.2 PCIe Gen5 x4 NVMe With White Heatsink CT2000T705SSD5A">SSD Crucial T705 Limited Edition 2TB M.2 PCIe Gen5 x4 NVMe With White Heatsink CT2000T705SSD5A - 10.200.000 ₫</option>
+<option value="SSD Crucial 2TB T705 M.2 PCIe Gen5 x4 NVMe With Heatsink CT2000T705SSD5">SSD Crucial 2TB T705 M.2 PCIe Gen5 x4 NVMe With Heatsink CT2000T705SSD5 - 11.700.000 ₫</option>
+<option value="SSD Crucial T700 4TB M.2 PCIe Gen5 x4 NVMe With Heatsink CT4000T700SSD5">SSD Crucial T700 4TB M.2 PCIe Gen5 x4 NVMe With Heatsink CT4000T700SSD5 - 12.500.000 ₫</option>
+<option value="SSD Enterprise Samsung PM893 3.84TB 2.5-Inch SATA III MZ-7L33T800">SSD Enterprise Samsung PM893 3.84TB 2.5-Inch SATA III MZ-7L33T800 - 15.990.000 ₫</option>
+<option value="SSD Enterprise Samsung 3.84TB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL23T800">SSD Enterprise Samsung 3.84TB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL23T800 - 16.900.000 ₫</option>
+<option value="SSD Crucial 4TB T705 M.2 PCIe Gen5 x4 NVMe CT4000T705SSD3">SSD Crucial 4TB T705 M.2 PCIe Gen5 x4 NVMe CT4000T705SSD3 - 16.900.000 ₫</option>
+<option value="SSD Crucial 4TB T705 M.2 PCIe Gen5 x4 NVMe With Heatsink CT4000T705SSD5">SSD Crucial 4TB T705 M.2 PCIe Gen5 x4 NVMe With Heatsink CT4000T705SSD5 - 17.900.000 ₫</option>
+<option value="SSD Corsair MP600 Pro XT 8TB M.2 PCIe Gen4 x4 NVMe 1.4 CSSD-F8000GBMP600PXT">SSD Corsair MP600 Pro XT 8TB M.2 PCIe Gen4 x4 NVMe 1.4 CSSD-F8000GBMP600PXT - 27.700.000 ₫</option>
+<option value="SSD Enterprise Samsung PM893 7.68TB 2.5-Inch SATA III MZ-7L37T600">SSD Enterprise Samsung PM893 7.68TB 2.5-Inch SATA III MZ-7L37T600 - 29.900.000 ₫</option>
+<option value="SSD Enterprise Samsung 7.68TB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL27T600">SSD Enterprise Samsung 7.68TB PM9A3 2.5-Inch U.2 PCIe Gen4 x4 MZ-QL27T600 - 32.500.000 ₫</option>
+</select>
+        </div>
+        <div class="toolbar">
+            <label for="Case" style="margin-right: 10px;">chọn Vỏ PC</label>
+                <select name="Case" id="CASE"><option value="Case máy tính XIGMATEK ALPHA META ARCTIC EN45011">Case máy tính XIGMATEK ALPHA META ARCTIC EN45011 - Liên hệ</option>
+<option value="Case máy tính XIGMATEK XA-22 EN47567">Case máy tính XIGMATEK XA-22 EN47567 - 350.000 ₫</option>
+<option value="Case máy tính XIGMATEK XA-20 EN46072">Case máy tính XIGMATEK XA-20 EN46072 - 350.000 ₫</option>
+<option value="Case máy tính MIK AETHER Black">Case máy tính MIK AETHER Black - 590.000 ₫</option>
+<option value="Case máy tính MIK AETHER White">Case máy tính MIK AETHER White - 650.000 ₫</option>
+<option value="Case máy tính Deepcool MATREXX 40 DP-MATX-MATREXX40">Case máy tính Deepcool MATREXX 40 DP-MATX-MATREXX40 - 750.000 ₫</option>
+<option value="Case máy tính XIGMATEK AQUA M NANO ARCTIC 3GF EN45516">Case máy tính XIGMATEK AQUA M NANO ARCTIC 3GF EN45516 - 790.000 ₫</option>
+<option value="Case máy tính XIGMATEK AQUA M NANO 3GF EN45509">Case máy tính XIGMATEK AQUA M NANO 3GF EN45509 - 790.000 ₫</option>
+<option value="Case máy tính XIGMATEK CUBI M NANO ARCTIC EN44960">Case máy tính XIGMATEK CUBI M NANO ARCTIC EN44960 - 790.000 ₫</option>
+<option value="Case máy tính XIGMATEK CUBI M NANO EN44953">Case máy tính XIGMATEK CUBI M NANO EN44953 - 790.000 ₫</option>
+<option value="Case máy tính XIGMATEK OCEAN M NANO ARCTIC EN45417">Case máy tính XIGMATEK OCEAN M NANO ARCTIC EN45417 - 790.000 ₫</option>
+<option value="Case máy tính XIGMATEK OCEAN M NANO EN45400">Case máy tính XIGMATEK OCEAN M NANO EN45400 - 790.000 ₫</option>
+<option value="Case máy tính XIGMATEK PANO M NANO ARCTIC 3GF EN45530">Case máy tính XIGMATEK PANO M NANO ARCTIC 3GF EN45530 - 890.000 ₫</option>
+<option value="Case máy tính XIGMATEK PANO M NANO 3GF EN45523">Case máy tính XIGMATEK PANO M NANO 3GF EN45523 - 890.000 ₫</option>
+<option value="Case máy tính XIGMATEK CUBI M EN42775">Case máy tính XIGMATEK CUBI M EN42775 - 890.000 ₫</option>
+<option value="Case máy tính Gamdias Talos E3 White CATALOSE3WHGA">Case máy tính Gamdias Talos E3 White CATALOSE3WHGA - 890.000 ₫</option>
+<option value="Case máy tính Deepcool CC560 WH R-CC560-WHGAA4-G-1">Case máy tính Deepcool CC560 WH R-CC560-WHGAA4-G-1 - 890.000 ₫</option>
+<option value="Case máy tính Deepcool MATREXX 40 3FS DP-MATX-MATREXX40-3FS">Case máy tính Deepcool MATREXX 40 3FS DP-MATX-MATREXX40-3FS - 890.000 ₫</option>
+<option value="Case máy tính MIK FOCALORS M Black">Case máy tính MIK FOCALORS M Black - 950.000 ₫</option>
+<option value="Case máy tính XIGMATEK CUBI M ARCTIC EN42782">Case máy tính XIGMATEK CUBI M ARCTIC EN42782 - 990.000 ₫</option>
+<option value="Case máy tính MIK FOCALORS M White">Case máy tính MIK FOCALORS M White - 990.000 ₫</option>
+<option value="Case máy tính MSI MAG FORGE 120A Airflow MAG-FORGE-120A">Case máy tính MSI MAG FORGE 120A Airflow MAG-FORGE-120A - 990.000 ₫</option>
+<option value="Case máy tính MIK BARBATOS M Black">Case máy tính MIK BARBATOS M Black - 1.050.000 ₫</option>
+<option value="Case máy tính Deepcool CH370 R-CH370-BKNAM1-G-1">Case máy tính Deepcool CH370 R-CH370-BKNAM1-G-1 - 1.050.000 ₫</option>
+<option value="Case máy tính Deepcool CH370 White R-CH370-WHNAM1-G-1">Case máy tính Deepcool CH370 White R-CH370-WHNAM1-G-1 - 1.050.000 ₫</option>
+<option value="Case máy tính Galax Revolution 03 White CGG3IRWANA0">Case máy tính Galax Revolution 03 White CGG3IRWANA0 - 1.050.000 ₫</option>
+<option value="Case máy tính ITX DeepCool CH160">Case máy tính ITX DeepCool CH160 - 1.150.000 ₫</option>
+<option value="Case máy tính XIGMATEK OCEAN ARCTIC EN45370">Case máy tính XIGMATEK OCEAN ARCTIC EN45370 - 1.190.000 ₫</option>
+<option value="Case máy tính XIGMATEK OCEAN EN45363">Case máy tính XIGMATEK OCEAN EN45363 - 1.190.000 ₫</option>
+<option value="Case máy tính XIGMATEK BLAST ARCTIC 4GF EN44922">Case máy tính XIGMATEK BLAST ARCTIC 4GF EN44922 - 1.190.000 ₫</option>
+<option value="Case máy tính XIGMATEK BLAST 4GF EN44908">Case máy tính XIGMATEK BLAST 4GF EN44908 - 1.190.000 ₫</option>
+<option value="Case máy tính XIGMATEK ALPHA CUBI II EN45271">Case máy tính XIGMATEK ALPHA CUBI II EN45271 - 1.190.000 ₫</option>
+<option value="Case máy tính Gamdias Talos E3 Mesh Elite White CATALOSE3MESELWHGA">Case máy tính Gamdias Talos E3 Mesh Elite White CATALOSE3MESELWHGA - 1.190.000 ₫</option>
+<option value="Case máy tính MSI MAG FORGE 320R Airflow White MAG-FORGE-320R-WHITE">Case máy tính MSI MAG FORGE 320R Airflow White MAG-FORGE-320R-WHITE - 1.290.000 ₫</option>
+<option value="Case máy tính Montech XR BLACK CAXRBLMT">Case máy tính Montech XR BLACK CAXRBLMT - 1.350.000 ₫</option>
+<option value="Case máy tính ITX DeepCool CH170 Digital">Case máy tính ITX DeepCool CH170 Digital - 1.350.000 ₫</option>
+<option value="Case máy tính MSI MAG FORGE 320R Airflow MAG-FORGE-320R">Case máy tính MSI MAG FORGE 320R Airflow MAG-FORGE-320R - 1.350.000 ₫</option>
+<option value="Case máy tính MicroATX Asus Prime AP201 Tempered Glass Black">Case máy tính MicroATX Asus Prime AP201 Tempered Glass Black - 1.390.000 ₫</option>
+<option value="Case máy tính XIGMATEK ALPHA META EN45004">Case máy tính XIGMATEK ALPHA META EN45004 - 1.590.000 ₫</option>
+<option value="Case máy tính Deepcool CH360 Digital ARGB R-CH360-BKAPE3D-G-1">Case máy tính Deepcool CH360 Digital ARGB R-CH360-BKAPE3D-G-1 - 1.590.000 ₫</option>
+<option value="Case máy tính Deepcool CH360 Digital ARGB White R-CH360-WHAPE3D-G-1">Case máy tính Deepcool CH360 Digital ARGB White R-CH360-WHAPE3D-G-1 - 1.690.000 ₫</option>
+<option value="Case máy tính Deepcool CH510 Mesh Digital R-CH510-BKNSE1-G-1">Case máy tính Deepcool CH510 Mesh Digital R-CH510-BKNSE1-G-1 - 1.750.000 ₫</option>
+<option value="Case máy tính Montech Sky Two ARGB Black CASKYTWOBLMT">Case máy tính Montech Sky Two ARGB Black CASKYTWOBLMT - 1.790.000 ₫</option>
+<option value="Case máy tính Corsair 3500X TG White CC-9011277-WW">Case máy tính Corsair 3500X TG White CC-9011277-WW - 1.850.000 ₫</option>
+<option value="Case máy tính Corsair 3500X TG Black CC-9011276-WW">Case máy tính Corsair 3500X TG Black CC-9011276-WW - 1.850.000 ₫</option>
+<option value="Case máy tính Corsair 4000D Airflow TG Black CC-9011200-WW">Case máy tính Corsair 4000D Airflow TG Black CC-9011200-WW - 1.850.000 ₫</option>
+<option value="Case máy tính Montech Sky Two ARGB White CASKYTWOWHMT">Case máy tính Montech Sky Two ARGB White CASKYTWOWHMT - 1.950.000 ₫</option>
+<option value="Case máy tính Deepcool CH560 Digital ARGB R-CH560-BKAPE4D-G-1">Case máy tính Deepcool CH560 Digital ARGB R-CH560-BKAPE4D-G-1 - 2.090.000 ₫</option>
+<option value="Case máy tính Deepcool CH560 Digital ARGB White R-CH560-WHAPE4D-G-1">Case máy tính Deepcool CH560 Digital ARGB White R-CH560-WHAPE4D-G-1 - 2.190.000 ₫</option>
+<option value="Case máy tính MSI MAG PANO M100R PZ">Case máy tính MSI MAG PANO M100R PZ - 2.390.000 ₫</option>
+<option value="Case máy tính MSI MAG PANO M100R PZ WHITE">Case máy tính MSI MAG PANO M100R PZ WHITE - 2.490.000 ₫</option>
+<option value="Case máy tính Montech Sky Two ARGB Blue Morocco CASKYTWOBUMT">Case máy tính Montech Sky Two ARGB Blue Morocco CASKYTWOBUMT - 2.490.000 ₫</option>
+<option value="Case máy tính Montech King 95 White CAKING95WHMT">Case máy tính Montech King 95 White CAKING95WHMT - 2.750.000 ₫</option>
+<option value="Case máy tính HYTE Revolt 3 White CS-HYTE-REVOLT3-W">Case máy tính HYTE Revolt 3 White CS-HYTE-REVOLT3-W - 2.990.000 ₫</option>
+<option value="Case máy tính HYTE Revolt 3 Black CS-HYTE-REVOLT3-B">Case máy tính HYTE Revolt 3 Black CS-HYTE-REVOLT3-B - 2.990.000 ₫</option>
+<option value="Case máy tính Corsair 4000X RGB TG White CC-9011205-WW">Case máy tính Corsair 4000X RGB TG White CC-9011205-WW - 2.990.000 ₫</option>
+<option value="Case máy tính Montech King 95 Pro Black CAKING95PROBLMT">Case máy tính Montech King 95 Pro Black CAKING95PROBLMT - 3.450.000 ₫</option>
+<option value="Case máy tính MSI MAG PANO 100R PZ WHITE">Case máy tính MSI MAG PANO 100R PZ WHITE - 3.490.000 ₫</option>
+<option value="Case máy tính Corsair iCUE LINK 3500X TG RGB White CC-9011281-WW">Case máy tính Corsair iCUE LINK 3500X TG RGB White CC-9011281-WW - 3.490.000 ₫</option>
+<option value="Case máy tính Corsair iCUE LINK 3500X TG RGB Black CC-9011280-WW">Case máy tính Corsair iCUE LINK 3500X TG RGB Black CC-9011280-WW - 3.490.000 ₫</option>
+<option value="Case máy tính MSI MPG GUNGNIR 300R Airflow White MPG-GUNGNIR-300R-AIRFLOW-WHITE">Case máy tính MSI MPG GUNGNIR 300R Airflow White MPG-GUNGNIR-300R-AIRFLOW-WHITE - 3.490.000 ₫</option>
+<option value="Case máy tính MSI MPG GUNGNIR 300R Airflow Black MPG-GUNGNIR-300R-AIRFLOW-BLACK">Case máy tính MSI MPG GUNGNIR 300R Airflow Black MPG-GUNGNIR-300R-AIRFLOW-BLACK - 3.490.000 ₫</option>
+<option value="Case máy tính Montech King 95 Pro White CAKING95PROWHMT">Case máy tính Montech King 95 Pro White CAKING95PROWHMT - 3.690.000 ₫</option>
+<option value="Case máy tính HYTE Y40 Black/White CS-HYTE-Y40-BW">Case máy tính HYTE Y40 Black/White CS-HYTE-Y40-BW - 3.700.000 ₫</option>
+<option value="Case máy tính HYTE Y40 White CS-HYTE-Y40-WW">Case máy tính HYTE Y40 White CS-HYTE-Y40-WW - 3.700.000 ₫</option>
+<option value="Case máy tính MSI MPG GUNGNIR 300P Airflow Black">Case máy tính MSI MPG GUNGNIR 300P Airflow Black - 3.990.000 ₫</option>
+<option value="Case máy tính Corsair 6500X TG White CC-9011258-WW">Case máy tính Corsair 6500X TG White CC-9011258-WW - 4.290.000 ₫</option>
+<option value="Case máy tính Corsair 6500X TG Black CC-9011257-WW">Case máy tính Corsair 6500X TG Black CC-9011257-WW - 4.290.000 ₫</option>
+<option value="Case máy tính Corsair 4000D RGB Airflow QL True White CC-9011232-WW">Case máy tính Corsair 4000D RGB Airflow QL True White CC-9011232-WW - 4.490.000 ₫</option>
+<option value="Case máy tính Gamdias NESO P1 B">Case máy tính Gamdias NESO P1 B - 4.690.000 ₫</option>
+<option value="Case máy tính Gamdias NESO P1 W">Case máy tính Gamdias NESO P1 W - 4.750.000 ₫</option>
+<option value="Case máy tính Gamdias NESO P1 BW">Case máy tính Gamdias NESO P1 BW - 4.750.000 ₫</option>
+<option value="Case máy tính HYTE Y60 Snow CS-HYTE-Y60-WW">Case máy tính HYTE Y60 Snow CS-HYTE-Y60-WW - 5.450.000 ₫</option>
+<option value="Case máy tính HYTE Y60 Black CS-HYTE-Y60-B">Case máy tính HYTE Y60 Black CS-HYTE-Y60-B - 5.450.000 ₫</option>
+<option value="Case máy tính HYTE Y70 White CS-HYTE-Y70-WW">Case máy tính HYTE Y70 White CS-HYTE-Y70-WW - 6.990.000 ₫</option>
+<option value="Case máy tính HYTE Y70 Black/White CS-HYTE-Y70-BW">Case máy tính HYTE Y70 Black/White CS-HYTE-Y70-BW - 6.990.000 ₫</option>
+<option value="Case máy tính HYTE Y70 Black CS-HYTE-Y70-B">Case máy tính HYTE Y70 Black CS-HYTE-Y70-B - 6.990.000 ₫</option>
+<option value="Case máy tính Corsair 1000D RGB CC-9011148-WW">Case máy tính Corsair 1000D RGB CC-9011148-WW - 12.490.000 ₫</option>
+<option value="Case máy tính Corsair iCUE LINK 9000D Airflow TG White CC-9011274-WW">Case máy tính Corsair iCUE LINK 9000D Airflow TG White CC-9011274-WW - 13.390.000 ₫</option>
+<option value="Case máy tính Corsair iCUE LINK 9000D Airflow TG Black CC-9011273-WW">Case máy tính Corsair iCUE LINK 9000D Airflow TG Black CC-9011273-WW - 13.390.000 ₫</option>
+<option value="Case máy tính HYTE Y70 Touch Infinite White CS-HYTE-Y70TI-WW">Case máy tính HYTE Y70 Touch Infinite White CS-HYTE-Y70TI-WW - 13.990.000 ₫</option>
+</select>
+        </div>
+    </div>
+    <div>
+        <h2>Tổng Giá:</h2>
+        <p id="total-price">Tổng: 0₫</p>
+      </div>
+</body>
+</html>
